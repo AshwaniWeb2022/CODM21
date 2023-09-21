@@ -1,4 +1,4 @@
-<!-- header include  -->
+
 <?php
 include "../app/header.php";
 $aboutImageBefore = "../assect/upload/about/cur.png";
@@ -16,8 +16,7 @@ $aboutImageBefore = "../assect/upload/about/cur.png";
 
     }
 </style>
-<!-- header include ENd -->
-<!--============= body container =========== -->
+
 <section style="background-image: url(../assect/upload/about/about_background.webp);" id="banner">
     <h3 class="line-1  text-white ">Maximize your potential with codm software Experts!!</h3>
 </section>
@@ -33,7 +32,7 @@ $aboutImageBefore = "../assect/upload/about/cur.png";
             </div>
             <div class="col-lg-6 pe-5 mb-4">
                 <h5 class="mb-3 " style="color:#00A1E0;">About CodM software</h5>
-                <h2 class="sub_titel  pb-3">Reliable Salesforce CRM partner since 2021</h2>
+                <h2 class="pb-3">Reliable Salesforce CRM partner since 2021</h2>
                 <div class="tabsAbout mt-3">
                     <input type="radio" name="tabsAbout" id="tabone" checked="checked">
                     <label for="tabone">Our Mission</label>
@@ -143,8 +142,4 @@ $aboutImageBefore = "../assect/upload/about/cur.png";
     <?php } ?>
     </div>
 </section>
-           
-<!--============= body container End =========== -->
-<!-- footer include  -->
 <?php include "../app/footer.php"; ?>
-<!-- footer include END -->

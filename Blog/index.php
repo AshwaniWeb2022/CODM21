@@ -1,7 +1,7 @@
 <?php
 include "../app/header.php";
 ?>
-<section id="banner" style="background-image:url(../client//imageFoleder/blog_background.webp);">
+<section id="banner" style="background-image:url(../assect/upload/blog/blog_background.webp);">
     <h3 class="line text-white "> Check out our Blogs, Don’t miss them!!</h3>
 </section>
 <section class="container mt-5">

@@ -86,7 +86,7 @@ include "../admin/databash/dbConnect.php";
     <header class="header">
         <nav class="nav_Header px-5" aria-label="Breadcrumb" role="navigation">
             <div class="nav__data">
-                <a href="../index" class="nav__logo">
+                <a href="../index/" class="nav__logo">
                     <img src="" alt="websiteLogo" class="header_logo my-2">
                 </a>
                 <div class="nav__toggle" id="nav-toggle">
@@ -99,7 +99,7 @@ include "../admin/databash/dbConnect.php";
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li>
-                        <a href="../index" class="nav__link">Home</a>
+                        <a href="index/" class="nav__link">Home</a>
                     </li>
                     <!--=============== DROPDOWN 1 ===============-->
                     <li class="dropdown__item">
@@ -153,7 +153,7 @@ include "../admin/databash/dbConnect.php";
                                             <a href="web-application" class="dropdown__link">Titan Web</a>
                                         </li>
                                         <li>
-                                            <a href="flow-automation" class="dropdown__link">Titan Flow</a>
+                                            <!-- <a href="flow-automation" class="dropdown__link">Titan Flow</a> -->
                                         </li>
                                     </ul>
                                 </div>

@@ -58,7 +58,7 @@
 
 <!--============ javaScript Cdn============= -->
 <script src="../assect/js/CountriesAPI.js"></script>
-<script src="../assect/js/CountriesAPI.js"></script>
+<script src="../assect\js\typerWriter.js"></script>
 <script src="../assect/js/headerJs.js"></script>
 
 <!--============ javaScript Cdn End============= -->

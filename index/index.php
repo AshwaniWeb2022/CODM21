@@ -6,7 +6,7 @@ include "../app/header.php";
         <div class="zoomoutheader">
             <h1 id="typewriter" class="text-center  text-white"></h1>
             <p class="tagLine mb-5 text-white">Optimizing Sales with Salesforce CRM Solutions</p>
-            <a href="AboutUs" class="btnLearn"><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
+            <a href="../About-Us/" class="btnLearn"><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
         </div>
     </div>
 </section>
@@ -32,7 +32,7 @@ include "../app/header.php";
                     industries. With a focus on security reviews and best practices, we have earned the distinction of
                     being an official Salesforce Consulting Partner since 2021.</div>
                 <div class="mt-5">
-                    <a href="#!" class="hireButton"><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
+                    <a href="../About-Us/" class="hireButton"><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
                 </div>
             </div>
         </div>
@@ -209,31 +209,6 @@ include "../app/header.php";
     </div>
 </section>
 
-<section class="mt-5">
-    <div class="container">
-        <h5 class="text-center" style="color:#00A1E0;">Hire Our Developer</h5>
-        <h2 class="sub_titel text-center mb-5 mt-2">Hire from Us, because we have the best man for the job </h2>
-        <div class="row">
-            <div class="col-lg-6 mb-4">
-                <div class="about__image boxShadow">
-                    <img src="../assect/upload/home/hireingImage.jpg" alt="hire" class="w-100" style=" position: relative;">
-                </div>
-            </div>
-            <div class="col-lg-6 ps-sm-5">
-                <div class="text-dark pt-4" style="line-height: 30px;">Looking for certified and experienced developers
-                    to work on any projects, you are in the right place. CodM provides top notch developers with
-                    hands-on expertise in Salesforce implementation, support and consultation services. Highly skilled
-                    developers who are dedicated in providing best quality work to the client within the defined time.
-                    Hire a direct plugin developer who can handle the ongoing projects without any hassle. Doesn’t
-                    matter what the project is, we assure to avail the right person for the job.</div>
-                <div class="mt-4">
-                    <a href="Career" class="hireButton "><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <section class="mt-5 container-fluid mb-5">
     <h5 class="text-center" style="color:#00A1E0;"> Our Recent Clients</h5>
     <h2 class="sub_titel text-center mb-5 mt-2">Recent Success Stories</h2>
@@ -262,10 +237,15 @@ include "../app/header.php";
 <section class="section_heading_M-top" style="background-image:url(../assect/upload/home/contact-us-background.jpg)" id="contact_Home">
     <div class="container">
         <div class="p-5">
-            <h4 class="text-center text-white" style="font-weight: 700;">Get A Free Cleaning Estimate</h4>
-            <p class="sub_titel text-center mb-5 mt-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia non natus nam nisi fugit possimus voluptate fuga cumque consequuntur? Illum! </p>
+            <h4 class="text-center text-white" style="font-weight: 700;">Hire Our Developer</h4>
+            <p class="sub_titel text-center mb-5 mt-2 text-white">Looking for certified and experienced developers
+                    to work on any projects, you are in the right place. CodM provides top notch developers with
+                    hands-on expertise in Salesforce implementation, support and consultation services. Highly skilled
+                    developers who are dedicated in providing best quality work to the client within the defined time.
+                    Hire a direct plugin developer who can handle the ongoing projects without any hassle. Doesn’t
+                    matter what the project is, we assure to avail the right person for the job.</p>
             <div class="mt-4 text-center">
-                <a href="Career" class="hireButton "><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
+                <a href="../Career/" class="hireButton "><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
             </div>
         </div>
     </div>
@@ -273,4 +253,4 @@ include "../app/header.php";
 
 
 
-<?php include "app/footer.php"; ?>
+<?php include "../app/footer.php"; ?>
