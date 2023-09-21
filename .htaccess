@@ -1,5 +1,5 @@
 RewriteEngine On
-DirectoryIndex maintenance.html
+DirectoryIndex index index.php
 
 DirectoryIndex admin login_form.php
 
