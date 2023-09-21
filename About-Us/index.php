@@ -1,6 +1,7 @@
 
 <?php
 include "../app/header.php";
+include "../admin/databash/dbConnect.php";
 $aboutImageBefore = "../assect/upload/about/cur.png";
 ?>
 <style>

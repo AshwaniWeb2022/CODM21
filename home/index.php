@@ -1,6 +1,9 @@
 <?php
 include "../app/header.php";
+include "../admin/databash/dbConnect.php";
 ?>
+
+
 <section class="header-wrapper">
     <div style="background-image: url(../assect/upload/home/herontower2_large.webp);" class="zoominheader">
         <div class="zoomoutheader">
