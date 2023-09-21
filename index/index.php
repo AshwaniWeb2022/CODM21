@@ -212,13 +212,11 @@ include "../app/header.php";
     </div>
 </section>
 <?php
-include "/admin/databash/dbConnect.php";
+include "../admin/databash/dbConnect.php";
 ?>
 <section class="mt-5 container-fluid mb-5">
     <h5 class="text-center" style="color:#00A1E0;"> Our Recent Clients</h5>
     <h2 class="sub_titel text-center mb-5 mt-2">Recent Success Stories</h2>
-
-
     <div class="row">
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12  offset-md-3">
             <div class="clinet owl-carousel owl-theme text-center" id="ourclinet">
