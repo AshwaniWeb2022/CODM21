@@ -1,6 +1,6 @@
 <?php
 include "../app/header.php";
-include ".../admin/databash/dbConnect.php";
+include "../admin/databash/dbConnect.php";
 ?>
 <section id="banner" style="background-image:url(../assect/upload/blog/blog_background.webp);">
     <h3 class="line text-white "> Check out our Blogs, Don’t miss them!!</h3>

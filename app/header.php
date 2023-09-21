@@ -110,13 +110,13 @@
                                <div class="dropdown__group">
                                     <ul class="dropdown__list">
                                         <li>
-                                            <a href="../About-Us/" class="dropdown__link">About Us</a>
+                                            <a href="../About-Us/index.php" class="dropdown__link">About Us</a>
                                         </li>
                                         <li>
-                                            <a href="../Career/" class="dropdown__link">Career</a>
+                                            <a href="../Career/index.php" class="dropdown__link">Career</a>
                                         </li>
                                         <li>
-                                            <a href="../Blog/" class="dropdown__link">Blog</a>
+                                            <a href="../Blog/index.php" class="dropdown__link">Blog</a>
                                         </li>
                                     </ul>
                                 </div> 
@@ -133,22 +133,22 @@
                                 <div class="dropdown__group">
                                     <ul class="dropdown__list">
                                         <li>
-                                            <a href="../Products/Forms" class="dropdown__link">Titan Form</a>
+                                            <a href="../Products/Forms.php" class="dropdown__link">Titan Form</a>
                                         </li>
                                         <li>
-                                            <a href="Docs" class="dropdown__link">Titan doc</a>
+                                            <a href="Docs.php" class="dropdown__link">Titan doc</a>
                                         </li>
                                         <li>
-                                            <a href="e-signature" class="dropdown__link">Titan Sign</a>
+                                            <a href="e-signature.php" class="dropdown__link">Titan Sign</a>
                                         </li>
                                         <li>
-                                            <a href="clm-contract-lifecycle-management" class="dropdown__link">Titan CLM</a>
+                                            <a href="clm-contract-lifecycle-management.php" class="dropdown__link">Titan CLM</a>
                                         </li>
                                         <li>
-                                            <a href="survey" class="dropdown__link">Titan Survey</a>
+                                            <a href="survey.php" class="dropdown__link">Titan Survey</a>
                                         </li>
                                         <li>
-                                            <a href="web-application" class="dropdown__link">Titan Web</a>
+                                            <a href="web-application.php" class="dropdown__link">Titan Web</a>
                                         </li>
                                         <li>
                                             <!-- <a href="flow-automation" class="dropdown__link">Titan Flow</a> -->
@@ -168,28 +168,28 @@
                                 <div class="dropdown__group">
                                     <ul class="dropdown__list">
                                         <li>
-                                            <a href="../Services/Omni" class="dropdown__link">OMNISTUDIO</a>
+                                            <a href="../Services/Omni.php" class="dropdown__link">OMNISTUDIO</a>
                                         </li>
                                         <li>
-                                            <a href="Industries_Cloud" class="dropdown__link">SALESFORCE INDUSTRIES CLOUD</a>
+                                            <a href="Industries_Cloud.php" class="dropdown__link">SALESFORCE INDUSTRIES CLOUD</a>
                                         </li>
                                         <li>
-                                            <a href="API_integration" class="dropdown__link">API INTEGRATION</a>
+                                            <a href="API_integration.php" class="dropdown__link">API INTEGRATION</a>
                                         </li>
                                         <li>
-                                            <a href="Implementation" class="dropdown__link">SALESFORCE IMPLEMENTATION</a>
+                                            <a href="Implementation.php" class="dropdown__link">SALESFORCE IMPLEMENTATION</a>
                                         </li>
                                         <li>
-                                            <a href="Consulting" class="dropdown__link">CONSULTING SERVICES</a>
+                                            <a href="Consulting.php" class="dropdown__link">CONSULTING SERVICES</a>
                                         </li>
                                         <li>
-                                            <a href="Support_And_Maintenance" class="dropdown__link">SUPPORT AND MAINTENANCE</a>
+                                            <a href="Support_And_Maintenance.php" class="dropdown__link">SUPPORT AND MAINTENANCE</a>
                                         </li>
                                         <li>
-                                            <a href="Data_Migration" class="dropdown__link">DATA MIGRATION</a>
+                                            <a href="Data_Migration.php" class="dropdown__link">DATA MIGRATION</a>
                                         </li>
                                         <li>
-                                            <a href="Testing_Deployment" class="dropdown__link">TESTING AND DEPLOYMENT</a>
+                                            <a href="Testing_Deployment.php" class="dropdown__link">TESTING AND DEPLOYMENT</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -197,7 +197,7 @@
                         </div>
                     </li>                   
                     <li>
-                        <a href="../Contact-Us/" class="nav__link">Write To Us</a>
+                        <a href="../Contact-Us/index.php" class="nav__link">Write To Us</a>
                     </li>
                 </ul>
             </div>
