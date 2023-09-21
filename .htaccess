@@ -1,4 +1,4 @@
-DirectoryIndex index.php
+DirectoryIndex index index.php
 
 DirectoryIndex admin login_form.php
 
