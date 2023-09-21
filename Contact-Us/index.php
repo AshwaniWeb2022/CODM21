@@ -72,10 +72,10 @@
     <div class="container">
         <div class="row mb-3">
             <div class="col-lg-3 col-md-12 mb-2">
-                <div class="footerAddressHeading pb-2">Noida,India</div>
+                <div class="footerAddressHeading pb-2 text-center">Noida, India</div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/flag-India.webp" alt="india Flag">
-                    <div class="text-dark">CodM Software Pvt. Ltd. 2nd Floor, IHDP Business Park, Plot No. 7, Sector 127, Noida, Uttar Pradesh 201303, India</div>
+                    <div class="text-dark">CodM Software Pvt. Ltd. <br> 2nd Floor, IHDP Business Park, Plot No. 7, Sector 127, Noida, Uttar Pradesh 201303, India</div>
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-solid fa-phone text-info"></i>
@@ -83,14 +83,14 @@
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-sharp fa-solid fa-envelope text-info"></i>
-                    <a href="mailto:hr@Codmsoftware.com" class="text-dark">info@Codmsoftware.com</a>
+                    <a href="mailto:hr@Codmsoftware.com" class="text-dark">info@codmsoftware.com</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-12 mb-2">
-                <div class="footerAddressHeading pb-2">Faridabad,India</div>
+                <div class="footerAddressHeading pb-2 text-center">Faridabad, India</div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/flag-India.webp" alt="india Flag">
-                    <div class="text-dark">CodM Software Pvt. Ltd. Business Pluss, EF3 Mall, Sector 20A, Faridabad, Haryana 121001, India</div>
+                    <div class="text-dark">CodM Software Pvt. Ltd.<br> Business Pluss, EF3 Mall, Sector 20A, Faridabad, Haryana 121001, India</div>
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-solid fa-phone text-info"></i>
@@ -98,14 +98,14 @@
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-sharp fa-solid fa-envelope text-info"></i>
-                    <a href="mailto:hr@Codmsoftware.com" class="text-dark">info@Codmsoftware.com</a>
+                    <a href="mailto:hr@Codmsoftware.com" class="text-dark">info@codmsoftware.com</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-12 mb-2">
-                <div class="footerAddressHeading pb-2">UK</div>
+                <div class="footerAddressHeading pb-2 text-center">UK</div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/flag-uk.webp" alt="uk Flag">
-                    <div class="text-dark">Tech14 Networks Ltd. Pvt. Regus Edmund House 12-22, Newhall Street, Birmingham B3 3AS, United Kingdom</div>
+                    <div class="text-dark">Tech14 Networks Ltd. <br> Regus Edmund House 12-22, Newhall Street, Birmingham B3 3AS, United Kingdom</div>
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-solid fa-phone text-info"></i>
@@ -117,10 +117,10 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-12 mb-2">
-                <div class="footerAddressHeading pb-2">USA</div>
+                <div class="footerAddressHeading pb-2 text-center">USA</div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/usa_flag.png" alt="usa Flag">
-                    <div class="text-dark">Talent4world Ltd. Pvt. 4501 Nightland Dr, Plano, TX 75024, United States of America</div>
+                    <div class="text-dark">Talent4world LLC <br> 4501 Nightland Dr, Plano, TX 75024, United States of America</div>
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-solid fa-phone text-info"></i>

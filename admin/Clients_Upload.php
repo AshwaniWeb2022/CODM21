@@ -1,6 +1,6 @@
 <?php
 // Database connection
-include ("../admin/databash/dbConnect.php");
+include "../admin/databash/dbConnect.php";
 
 // File upload
 $targetDir = "../admin/client_images/";
