@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";  
-$username = "root";  
+$username = "CODM-1";  
 $password = ""; 
 $dbname = "codm--sql";  
 
