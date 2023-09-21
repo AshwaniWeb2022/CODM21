@@ -224,7 +224,7 @@ include "../admin/databash/dbConnect.php";
                 while ($row = mysqli_fetch_assoc($result)) {
                 ?>
                     <div class="col-lg-4">
-                        <a href=" <?php echo $row['clients_Weblink']; ?>" target="_blank">
+                        <a href=" ../<?php echo $row['clients_Weblink']; ?>" target="_blank">
                             <img src="<?php echo $row['clients_image']; ?>" alt="<?php echo $row['Client_name']; ?>">
                         </a>
                     </div>
