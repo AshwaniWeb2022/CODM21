@@ -195,7 +195,7 @@ include "../admin/databash/dbConnect.php";
                         Trust us for seamless and efficient Salesforce data migration solutions</div>
                 </div>
             </div>
-            <div class="col-lg-4 mb-2">
+            <!-- <div class="col-lg-4 mb-2">
                 <div class="expertiseBox blue">
                     <img src="../assect/upload/home/DataMigrationicon.png" alt="ExpertiseIcon" class="mb-2">
                     <div class="expertiseBoxTitel mb-3 mt-2">Data Migration</div>
@@ -206,7 +206,7 @@ include "../admin/databash/dbConnect.php";
                         pre-go-live task influenced by factors such as data volume, quality and source complexity.
                         Trust us for seamless and efficient Salesforce data migration solutions</div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
