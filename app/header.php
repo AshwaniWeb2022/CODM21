@@ -1,6 +1,4 @@
-<?php
-include "../admin/databash/dbConnect.php";
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
