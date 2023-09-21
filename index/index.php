@@ -1,6 +1,6 @@
 <?php
 include "../app/header.php";
-
+include "../admin/databash/dbConnect.php";
 ?>
 
 
@@ -211,9 +211,7 @@ include "../app/header.php";
         </div>
     </div>
 </section>
-<?php
-include "../admin/databash/dbConnect.php";
-?>
+
 <section class="mt-5 container-fluid mb-5">
     <h5 class="text-center" style="color:#00A1E0;"> Our Recent Clients</h5>
     <h2 class="sub_titel text-center mb-5 mt-2">Recent Success Stories</h2>
