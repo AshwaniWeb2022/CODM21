@@ -60,7 +60,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 right-border text-white">
-                    <marquee>Lorem ipsum dolor sit amet consectetur.</marquee>
+                    <!-- <marquee>Lorem ipsum dolor sit amet consectetur.</marquee> -->
                 </div>
                 <div class="col-lg-3 right-border text-white">
                     <span>
