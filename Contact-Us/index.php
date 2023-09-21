@@ -72,7 +72,7 @@
     <div class="container">
         <div class="row mb-3">
             <div class="col-lg-3 col-md-12 mb-2">
-                <div class="footerAddressHeading pb-2">Noida</div>
+                <div class="footerAddressHeading pb-2">Noida,India</div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/flag-India.webp" alt="india Flag">
                     <div class="text-dark">CodM Software Pvt. Ltd. 2nd Floor, IHDP Business Park, Plot No. 7, Sector 127, Noida, Uttar Pradesh 201303, India</div>
@@ -87,7 +87,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-12 mb-2">
-                <div class="footerAddressHeading pb-2">Faridabad</div>
+                <div class="footerAddressHeading pb-2">Faridabad,India</div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/flag-India.webp" alt="india Flag">
                     <div class="text-dark">CodM Software Pvt. Ltd. Business Pluss, EF3 Mall, Sector 20A, Faridabad, Haryana 121001, India</div>
@@ -102,7 +102,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-12 mb-2">
-                <div class="footerAddressHeading pb-2">United Kingdom</div>
+                <div class="footerAddressHeading pb-2">UK</div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/flag-uk.webp" alt="uk Flag">
                     <div class="text-dark">Tech14 Networks Ltd. Pvt. Regus Edmund House 12-22, Newhall Street, Birmingham B3 3AS, United Kingdom</div>
@@ -117,7 +117,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-12 mb-2">
-                <div class="footerAddressHeading pb-2">United States of America</div>
+                <div class="footerAddressHeading pb-2">USA</div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/usa_flag.png" alt="usa Flag">
                     <div class="text-dark">Talent4world Ltd. Pvt. 4501 Nightland Dr, Plano, TX 75024, United States of America</div>
