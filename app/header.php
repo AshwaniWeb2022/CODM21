@@ -84,8 +84,8 @@
     <header class="header">
         <nav class="nav_Header px-5" aria-label="Breadcrumb" role="navigation">
             <div class="nav__data">
-                <a href="../index/" class="nav__logo">
-                    <img src="" alt="websiteLogo" class="header_logo my-2">
+                <a href="../index/index.php" class="nav__logo">
+                    <img src="../assect/upload/logo/logo-change-color.png" alt="websiteLogo" class="header_logo my-2">
                 </a>
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="ri-menu-line nav__toggle-menu"></i>

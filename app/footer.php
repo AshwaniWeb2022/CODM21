@@ -6,34 +6,34 @@
       <div class="col-lg-9 order-md-2 mb-3">
         <div class="owl-carousel" id="AllCetificat">
           <div class="cetificat">
-            <img src="../client/imageFoleder//omniStudioDeveloper.webp" alt="omniStudioDeveloper" class="w-100">
+            <img src="../assect/upload/footer/omniStudioDeveloper.webp" alt="omniStudioDeveloper" class="w-100">
           </div>
           <div class="cetificat">
-            <img src="../client/imageFoleder//omniStudioConsultant.webp" alt="omniStudioConsultant" class="w-100">
+            <img src="../assect/upload/footer/omniStudioConsultant.webp" alt="omniStudioConsultant" class="w-100">
           </div>
           <div class="cetificat">
-            <img src="../client/imageFoleder//platformAppBuilder.webp" alt="platformAppBuilder" class="w-100">
+            <img src="../assect/upload/footer/platformAppBuilder.webp" alt="platformAppBuilder" class="w-100">
           </div>
           <div class="cetificat">
-            <img src="../client/imageFoleder//PD1.webp" alt="PD1" class="w-100">
+            <img src="../assect/upload/footer/PD1.webp" alt="PD1" class="w-100">
           </div>
           <div class="cetificat">
-            <img src="../client/imageFoleder//PD2.webp" alt="PD2" class="w-100">
+            <img src="../assect/upload/footer/PD2.webp" alt="PD2" class="w-100">
           </div>
           <div class="cetificat">
-            <img src="../client/imageFoleder//CPQSpecialist.webp" alt="CPQSpecialist" class="w-100">
+            <img src="../assect/upload/footer/CPQSpecialist.webp" alt="CPQSpecialist" class="w-100">
           </div>
           <div class="cetificat">
-            <img src="../client/imageFoleder//B2CSolutionArchitect.webp" alt="B2CSolutionArchitect" class="w-100">
+            <img src="../assect/upload/footer/B2CSolutionArchitect.webp" alt="B2CSolutionArchitect" class="w-100">
           </div>
           <div class="cetificat">
-            <img src="../client/imageFoleder//applicationArchitect.webp" alt="applicationArchitect" class="w-100">
+            <img src="../assect/upload/footer/applicationArchitect.webp" alt="applicationArchitect" class="w-100">
           </div>
         </div>
       </div>
       <div class="col-lg-3 mb-3 ">
         <h5>COMPANY PROFILE</h5>
-        <a href="../client/CodM_MediaDeck.pdf" target="_blank"><button class="btn btn-primary text-uppercase mb-3" type="button"> download <i class="fas fa-download"></i> </button></a>
+        <a href="../assect/upload/footer/CodM_MediaDeck.pdf" target="_blank"><button class="btn btn-primary text-uppercase mb-3" type="button"> download <i class="fas fa-download"></i> </button></a>
         <br>
         <!-- Twitter -->
         <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/channel/UCXthwczjWNxYx9Ti5bJ2hDg" target="_blank" role="button"><i class="fab fa-youtube"></i></a>
