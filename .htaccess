@@ -7,7 +7,7 @@ ErrorDocument 404 /404.html
 
 ErrorDocument 500 /500.html
 
-RewriteBase /
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %index.php -f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^(.*)$ /index.php/$1 [L]
