@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";  
-$username = "root";  
-$password = ""; 
+$username = "CODM-1";  
+$password = "CODM-1"; 
 $dbname = "codm--sql";  
 
 // Create a connection
