@@ -1,0 +1,75 @@
+@import url("https://rsms.me/inter/inter-ui.css");
+::selection {
+  background: #2d2f36;
+}
+::-webkit-selection {
+  background: #2d2f36;
+}
+::-moz-selection {
+  background: #2d2f36;
+}
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+.loginForm{
+  background-color: #2d2f36;
+  height: 450px;
+  width: 400px;
+  margin: auto;
+  border-radius: 10px;
+}
+svg {
+  position: absolute;
+  width: 400px;
+}
+path {
+  fill: none;
+  stroke: url(#linearGradient);
+  stroke-width: 4;
+  stroke-dasharray: 240 1386;
+}
+.form {
+  position: absolute;
+  margin: 50px;
+}
+label {
+  color: #c2c2c5;
+  display: block;
+  font-size: 14px;
+  height: 16px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+input {
+  background: transparent;
+  border: 0;
+  color: #f2f2f2;
+  font-size: 20px;
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+  outline: none !important;
+}
+input::-moz-focus-inner {
+  border: 0;
+}
+#submit {
+  color: #707075;
+  margin-top: 50px;
+  transition: color 300ms;
+  width:60%;
+}
+#submit:focus {
+  color: #f2f2f2;
+}
+#submit:active {
+  color: #d0d0d2;
+} 
+.error{
+  text-align: center;
+  color: red;
+  font-size: 23px;
+  font-weight: bold;
+}
