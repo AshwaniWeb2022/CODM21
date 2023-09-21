@@ -62,10 +62,15 @@ $aboutImageBefore = "../assect/upload/about/cur.png";
 <section class="section_heading_M-top" style="background-image:url(../assect/upload/home/contact-us-background.jpg)" id="contact_Home">
     <div class="container">
         <div class="p-5">
-            <h4 class="text-center text-white" style="font-weight: 700;">Get A Free Cleaning Estimate</h4>
-            <p class="sub_titel text-center mb-5 mt-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia non natus nam nisi fugit possimus voluptate fuga cumque consequuntur? Illum! </p>
+            <h4 class="text-center text-white" style="font-weight: 700;">Hire Our Developer</h4>
+            <p class="sub_titel text-center mb-5 mt-2 text-white">Looking for certified and experienced developers
+                    to work on any projects, you are in the right place. CodM provides top notch developers with
+                    hands-on expertise in Salesforce implementation, support and consultation services. Highly skilled
+                    developers who are dedicated in providing best quality work to the client within the defined time.
+                    Hire a direct plugin developer who can handle the ongoing projects without any hassle. Doesn’t
+                    matter what the project is, we assure to avail the right person for the job.</p>
             <div class="mt-4 text-center">
-                <a href="Career" class="hireButton "><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
+                <a href="../Career/index.php" class="hireButton "><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
             </div>
         </div>
     </div>
