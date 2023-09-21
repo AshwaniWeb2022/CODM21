@@ -9,7 +9,7 @@
         box-shadow: none !important;
     }
 </style>
-<section style="background-image: url(../client//imageFoleder/con_background.webp);" id="banner">
+<section style="background-image: url(../assect/upload/contact/con_background.webp);" id="banner">
     <h3 class="line anim-typewriter text-uppercase text-white text-center">So now you’re here you know how to reach us. We’re happy to serve!!</h3>
 </section>
 <section class="mt-5">
@@ -68,13 +68,13 @@
     </div>
 </section>
 
-<section class="mt-5 addressMap" style="background-image:url(../client//imageFoleder//worldMap.jpg);">
+<section class="mt-5 addressMap" style="background-image:url(../assect/upload/contact/worldMap.jpg);">
     <div class="container">
         <div class="row mb-3">
             <div class="col-lg-4 col-md-12 mb-2">
                 <div class="footerAddressHeading pb-2">Noida</div>
                 <div class="footerAddress mb-2">
-                    <img src="../client//imageFoleder//logo//flag-India.webp" alt="india Flag">
+                    <img src="../assect/upload/contact/flag-India.webp" alt="india Flag">
                     <div class="text-dark">CodM Software Pvt. Ltd. 2nd Floor, IHDP Business Park, Plot No. 7, Sector 127, Noida, Uttar Pradesh 201303, India</div>
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
@@ -89,7 +89,7 @@
             <div class="col-lg-4 col-md-12 mb-2">
                 <div class="footerAddressHeading pb-2">Faridabad</div>
                 <div class="footerAddress mb-2">
-                    <img src="../client//imageFoleder//logo//flag-India.webp" alt="india Flag">
+                    <img src="../assect/upload/contact/flag-India.webp" alt="india Flag">
                     <div class="text-dark">CodM Software Pvt. Ltd. Business Pluss, EF3 Mall, Sector 20A, Faridabad, Haryana 121001, India</div>
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
@@ -104,7 +104,7 @@
             <div class="col-lg-4 col-md-12 mb-2">
                 <div class="footerAddressHeading pb-2">United Kingdom</div>
                 <div class="footerAddress mb-2">
-                    <img src="../client//imageFoleder//logo//flag-uk.webp" alt="uk Flag">
+                    <img src="../assect/upload/contact/flag-uk.webp" alt="uk Flag">
                     <div class="text-dark">Tech14 Networks Ltd. Pvt. Regus Edmund House 12-22, Newhall Street, Birmingham B3 3AS, United Kingdom</div>
                 </div>
                 <div class="footerMailPhoneIcon mb-2">

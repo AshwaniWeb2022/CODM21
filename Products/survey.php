@@ -35,7 +35,7 @@
                         class="fw-bold">Measure</span></div>
             </div>
             <div class="col-lg-5 mx-auto align-self-center mb-2">
-                <img src="../client//imageFoleder/Survey-1.png" alt="form-2" class="w-100">
+                <img src="../assect/upload/Products/Survey-1.png" alt="form-2" class="w-100">
             </div>
         </div>
     </div>
