@@ -1,6 +1,6 @@
 <?php
 include "../app/header.php";
-include "../admin/databash/dbConnect.php";
+include ".../admin/databash/dbConnect.php";
 ?>
 
 
