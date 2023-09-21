@@ -128,7 +128,7 @@
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-sharp fa-solid fa-envelope text-info"></i>
-                    <a href="mailto:info@tech14networks.com" class="text-dark">info@ialent4World.com</a>
+                    <a href="mailto:info@tech14networks.com" class="text-dark">info@talent4World.com</a>
                 </div>
             </div>
         </div>
