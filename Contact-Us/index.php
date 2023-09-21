@@ -71,7 +71,7 @@
 <section class="mt-5 addressMap" style="background-image:url(../assect/upload/contact/worldMap.jpg);">
     <div class="container">
         <div class="row mb-3">
-            <div class="col-lg-4 col-md-12 mb-2">
+            <div class="col-lg-3 col-md-12 mb-2">
                 <div class="footerAddressHeading pb-2">Noida</div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/flag-India.webp" alt="india Flag">
@@ -86,7 +86,7 @@
                     <a href="mailto:hr@Codmsoftware.com" class="text-dark">info@Codmsoftware.com</a>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-12 mb-2">
+            <div class="col-lg-3 col-md-12 mb-2">
                 <div class="footerAddressHeading pb-2">Faridabad</div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/flag-India.webp" alt="india Flag">
@@ -101,7 +101,7 @@
                     <a href="mailto:hr@Codmsoftware.com" class="text-dark">info@Codmsoftware.com</a>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-12 mb-2">
+            <div class="col-lg-3 col-md-12 mb-2">
                 <div class="footerAddressHeading pb-2">United Kingdom</div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/flag-uk.webp" alt="uk Flag">
@@ -114,6 +114,21 @@
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-sharp fa-solid fa-envelope text-info"></i>
                     <a href="mailto:info@tech14networks.com" class="text-dark">info@tech14networks.com</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 mb-2">
+                <div class="footerAddressHeading pb-2">United States of America</div>
+                <div class="footerAddress mb-2">
+                    <img src="../assect/upload/contact/usa_flag.png" alt="usa Flag">
+                    <div class="text-dark">Talent4world Ltd. Pvt. 4501 Nightland Dr, Plano, TX 75024, United States of America</div>
+                </div>
+                <div class="footerMailPhoneIcon mb-2">
+                    <i class="fa-solid fa-phone text-info"></i>
+                    <a href="tel:+44 7436934216" class="text-dark">+1(972)-945-5043</a>
+                </div>
+                <div class="footerMailPhoneIcon mb-2">
+                    <i class="fa-sharp fa-solid fa-envelope text-info"></i>
+                    <a href="mailto:info@tech14networks.com" class="text-dark">Info@Talent4World.com</a>
                 </div>
             </div>
         </div>
