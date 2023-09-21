@@ -105,7 +105,7 @@
                 <div class="footerAddressHeading pb-2 text-center">UK</div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/flag-uk.webp" alt="uk Flag">
-                    <div class="text-dark">Tech14 Networks Ltd. <br> Regus Edmund House 12-22, Newhall Street, Birmingham B3 3AS, United Kingdom</div>
+                    <div class="text-dark">Tech14 Networks Ltd. <br> Regus Edmund House 12-22, Newhall Street, Birmingham B3 3AS, UK</div>
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-solid fa-phone text-info"></i>
@@ -120,7 +120,7 @@
                 <div class="footerAddressHeading pb-2 text-center">USA</div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/usa_flag.png" alt="usa Flag">
-                    <div class="text-dark">Talent4world LLC <br> 4501 Nightland Dr, Plano, TX 75024, United States of America</div>
+                    <div class="text-dark">Talent4world LLC. <br> 4501 Nightland Dr, Plano, TX 75024, USA</div>
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-solid fa-phone text-info"></i>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-sharp fa-solid fa-envelope text-info"></i>
-                    <a href="mailto:info@tech14networks.com" class="text-dark">Info@Talent4World.com</a>
+                    <a href="mailto:info@tech14networks.com" class="text-dark">info@ialent4World.com</a>
                 </div>
             </div>
         </div>
