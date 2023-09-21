@@ -1,53 +1,6 @@
 <footer class="bg-color-footer bg-dark text-white">
   <div class="container p-3">
-    <!-- <div class="row mb-3">
-            <div class="col-lg-4 col-md-12 mb-2">
-                <div class="footerAddressHeading pb-2">Noida</div>
-                <div class="footerAddress mb-2">
-                    <img src="../client//imageFoleder//logo//flag-India.webp" alt="india Flag">
-                    <div>CodM Software Pvt. Ltd. 2nd Floor, IHDP Business Park, Plot No. 7, Sector 127, Noida, Uttar Pradesh 201303, India</div>
-                </div>
-                <div class="footerMailPhoneIcon mb-2">
-                    <i class="fa-solid fa-phone"></i>
-                    <a href="tel:+91 9871717425">+91 9871717425</a>
-                </div>
-                <div class="footerMailPhoneIcon mb-2">
-                    <i class="fa-sharp fa-solid fa-envelope"></i>
-                    <a href="mailto:hr@Codmsoftware.com">hr@Codmsoftware.com</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 mb-2">
-                <div class="footerAddressHeading pb-2">Faridabad</div>
-                <div class="footerAddress mb-2">
-                    <img src="../client//imageFoleder//logo//flag-India.webp" alt="india Flag">
-                    <div>CodM Software Pvt. Ltd. Business Pluss, EF3 Mall, Sector 20A, Faridabad, Haryana 121001, India</div>
-                </div>
-                <div class="footerMailPhoneIcon mb-2">
-                    <i class="fa-solid fa-phone"></i>
-                    <a href="tel:+91 9871717425">+91 9871717425</a>
-                </div>
-                <div class="footerMailPhoneIcon mb-2">
-                    <i class="fa-sharp fa-solid fa-envelope"></i>
-                    <a href="mailto:hr@Codmsoftware.com">hr@Codmsoftware.com</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 mb-2">
-                <div class="footerAddressHeading pb-2">United Kingdom</div>
-                <div class="footerAddress mb-2">
-                    <img src="../client//imageFoleder//logo//flag-uk.webp" alt="uk Flag">
-                    <div>Tech14 Networks Ltd. Pvt. Regus Edmund House 12-22, Newhall Street, Birmingham B3 3AS, United Kingdom</div>
-                </div>
-                <div class="footerMailPhoneIcon mb-2">
-                    <i class="fa-solid fa-phone"></i>
-                    <a href="tel:+44 7436934216">+44 7436934216</a>
-                </div>
-                <div class="footerMailPhoneIcon mb-2">
-                    <i class="fa-sharp fa-solid fa-envelope"></i>
-                    <a href="mailto:info@tech14networks.com">info@tech14networks.com</a>
-                </div>
-            </div>
-        </div> -->
-    <!-- <hr class="footerHrline mb-5"> -->
+
     <div class="row mb-3 p-3">
 
       <div class="col-lg-9 order-md-2 mb-3">
@@ -104,9 +57,9 @@
 
 
 <!--============ javaScript Cdn============= -->
-<script src="../client//javascript//typerWriter.js"></script>
-<script src="../client//javascript//CountriesAPI.js"></script>
-<script src="../client//javascript//header-js.js"></script>
+<script src="../assect/js/CountriesAPI.js"></script>
+<script src="../assect/js/CountriesAPI.js"></script>
+<script src="../assect/js/headerJs.js"></script>
 
 <!--============ javaScript Cdn End============= -->
 
