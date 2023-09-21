@@ -8,7 +8,7 @@ include "../admin/databash/dbConnect.php";
         <div class="zoomoutheader">
             <h1 id="typewriter" class="text-center  text-white"></h1>
             <p class="tagLine mb-5 text-white">Optimizing Sales with Salesforce CRM Solutions</p>
-            <a href="../About-Us/index.php" class="btnLearn"><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
+            <a href="../About-Us/" class="btnLearn"><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
         </div>
     </div>
 </section>
@@ -34,7 +34,7 @@ include "../admin/databash/dbConnect.php";
                     industries. With a focus on security reviews and best practices, we have earned the distinction of
                     being an official Salesforce Consulting Partner since 2021.</div>
                 <div class="mt-5">
-                    <a href="../About-Us/index.php" class="hireButton"><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
+                    <a href="../About-Us/" class="hireButton"><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
                 </div>
             </div>
         </div>
@@ -245,7 +245,7 @@ include "../admin/databash/dbConnect.php";
                     Hire a direct plugin developer who can handle the ongoing projects without any hassle. Doesn’t
                     matter what the project is, we assure to avail the right person for the job.</p>
             <div class="mt-4 text-center">
-                <a href="../Career/index.php" class="hireButton "><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
+                <a href="../Career/" class="hireButton "><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
             </div>
         </div>
     </div>

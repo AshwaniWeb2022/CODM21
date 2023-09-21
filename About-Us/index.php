@@ -70,7 +70,7 @@ $aboutImageBefore = "../assect/upload/about/cur.png";
                     Hire a direct plugin developer who can handle the ongoing projects without any hassle. Doesn’t
                     matter what the project is, we assure to avail the right person for the job.</p>
             <div class="mt-4 text-center">
-                <a href="../Career/index.php" class="hireButton "><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
+                <a href="../Career/" class="hireButton "><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
             </div>
         </div>
     </div>
