@@ -1,10 +1,10 @@
 <?php
 include "../app/header.php";
-include ".../admin/databash/dbConnect.php";
+// include "../admin/databash/dbConnect.php";
 ?>
 
 
-<!-- <section class="header-wrapper">
+<section class="header-wrapper">
     <div style="background-image: url(../assect/upload/home/herontower2_large.webp);" class="zoominheader">
         <div class="zoomoutheader">
             <h1 id="typewriter" class="text-center  text-white"></h1>
@@ -12,9 +12,9 @@ include ".../admin/databash/dbConnect.php";
             <a href="../About-Us/" class="btnLearn"><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
         </div>
     </div>
-</section> -->
+</section>
 
-<!-- <section class="section_heading_p-top" style="position:relative;">
+<section class="section_heading_p-top" style="position:relative;">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 mb-4">
@@ -40,9 +40,9 @@ include ".../admin/databash/dbConnect.php";
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
-<!-- <section class="section_heading_M-top">
+<section class="section_heading_M-top">
     <div class="container">
         <h5 class="text-center" style="color:#00A1E0;">We Serve To Industries</h5>
         <h2 class="sub_titel text-center mb-5 mt-2">We offer customised solutions for various industries and ensure smooth.</h2>
@@ -97,9 +97,9 @@ include ".../admin/databash/dbConnect.php";
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
-<!-- <section class="mt-5 pt-3 " style="background-color:#c6e3ff;">
+<section class="mt-5 pt-3 " style="background-color:#c6e3ff;">
     <div class="container py-5">
         <div class="row mb-5">
             <div class="col-lg-5 mb-2">
@@ -210,8 +210,8 @@ include ".../admin/databash/dbConnect.php";
             </div>
         </div>
     </div>
-</section> -->
-<!-- 
+</section>
+
 <section class="mt-5 container-fluid mb-5">
     <h5 class="text-center" style="color:#00A1E0;"> Our Recent Clients</h5>
     <h2 class="sub_titel text-center mb-5 mt-2">Recent Success Stories</h2>
@@ -235,8 +235,8 @@ include ".../admin/databash/dbConnect.php";
             </div>
         </div>
     </div>
-</section> -->
-<!-- 
+</section>
+
 <section class="section_heading_M-top" style="background-image:url(../assect/upload/home/contact-us-background.jpg)" id="contact_Home">
     <div class="container">
         <div class="p-5">
@@ -252,7 +252,7 @@ include ".../admin/databash/dbConnect.php";
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 
 
