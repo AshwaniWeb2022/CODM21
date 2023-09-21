@@ -120,7 +120,7 @@
                 <div class="footerAddressHeading pb-2 text-center">USA</div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/usa_flag.png" alt="usa Flag">
-                    <div class="text-dark">Talent4world LLC <br> 4501 Nightland Dr <br> Plano, TX 75024 - USA</div>
+                    <div class="text-dark">Talent4World LLC <br> 4501 Nightland Dr <br> Plano, TX 75024 - USA</div>
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-solid fa-phone text-info"></i>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-sharp fa-solid fa-envelope text-info"></i>
-                    <a href="mailto:info@tech14networks.com" class="text-dark">info@talent4World.com</a>
+                    <a href="mailto:info@tech14networks.com" class="text-dark">info@talent4world.com</a>
                 </div>
             </div>
         </div>
