@@ -1,5 +1,5 @@
 <?php
-// include "../app/header.php";
+include "../app/header.php";
 include "../admin/databash/dbConnect.php";
 ?>
 
