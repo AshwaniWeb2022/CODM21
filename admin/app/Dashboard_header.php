@@ -80,7 +80,7 @@ require "../admin/databash/dbConnect.php"
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link wave-effect collapsed wave-effect" href="../admin/Event_Upload_Dashboard">
+            <a class="nav-link wave-effect collapsed wave-effect" href="../admin/Event_Upload_Dashboard.php">
               <i class="feather icon-grid"></i>
               <span class="menu-title">Event images Dashboard</span>
             </a>
