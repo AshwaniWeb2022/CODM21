@@ -27,7 +27,7 @@ include "../app/header.php";
                 efficiency.</p>
         </div>
         <div class="col-lg-6 align-self-center mb-3">
-            <img src="../assect/upload/Service/api-chat.png" alt="image" style="width:100%; height:380px;">
+            <img src="../assect/upload/Service/api-chat.jpg" alt="image" style="width:100%; height:380px;">
         </div>
         <h2 class="pt-2 heading_titel">Empowering Data Movement and Integration through Salesforce's Varied API
             Offerings</h2>
