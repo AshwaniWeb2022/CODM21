@@ -168,7 +168,7 @@
                                 <div class="dropdown__group">
                                     <ul class="dropdown__list">
                                     <li>
-                                            <a href="API_integration.php" class="dropdown__link">API INTEGRATION</a>
+                                            <a href="../Services/API_integration.php" class="dropdown__link">API INTEGRATION</a>
                                         </li>
                                         <li>
                                             <a href="Consulting.php" class="dropdown__link">CONSULTING SERVICES</a>
@@ -177,7 +177,7 @@
                                             <a href="Data_Migration.php" class="dropdown__link">DATA MIGRATION</a>
                                         </li>
                                         <li>
-                                            <a href="../Services/Omni.php" class="dropdown__link">OMNISTUDIO</a>
+                                            <a href="Omni.php" class="dropdown__link">OMNISTUDIO</a>
                                         </li>
                                         <li>
                                             <a href="Industries_Cloud.php" class="dropdown__link">SALESFORCE INDUSTRIES CLOUD</a>
