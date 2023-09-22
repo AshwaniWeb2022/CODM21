@@ -3,7 +3,7 @@
 include "../admin/databash/dbConnect.php";
 
 // File upload
-$targetDir = "../admin/client_images/";
+$targetDir ="../admin/client_images/";
 $targetFile = $targetDir . basename($_FILES["Clien_image"]["name"]);
 move_uploaded_file($_FILES["Clien_image"]["tmp_name"], $targetFile);
 
