@@ -30,7 +30,7 @@ include("../admin/databash/dbConnect.php")
             $result = mysqli_query($conn, $query);
             while ($row = mysqli_fetch_assoc($result)) {
             ?>
-                <div class="col-lg-2">
+                <div class="col-lg-1">
                     <img src="<?php echo $row['clients_image']; ?>" alt="<?php echo $row['Client_name']; ?>">
                     <a href=" <?php echo $row['clients_Weblink']; ?>" target="_blank"><?php echo $row['clients_Weblink']; ?></a>
                     <form action="../admin/delete.php" method="POST" class="mt-3">
