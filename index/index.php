@@ -18,7 +18,7 @@ include "../admin/databash/dbConnect.php";
         <div class="row">
             <div class="col-lg-6 mb-4">
                 <div id="aboutImage_Wapper">
-                    <!-- <img src="../assect/upload/home/AboutImage.jpg" alt="about"> -->
+                    <img src="../assect/upload/home/AboutImage.jpeg" alt="about">
                     <div id="Experiens_cound">
                         <div id="count_Exp">10+</div>
                         <div class="text_count">total project</div>
@@ -216,7 +216,7 @@ include "../admin/databash/dbConnect.php";
     <h2 class="sub_titel text-center mb-5 mt-2">Recent Success Stories</h2>
     <div class="row">
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12  offset-md-3">
-            <div class="clinet owl-carousel owl-theme text-center" id="ourclinet">
+            <div class="clinet owl-carousel  text-center" id="ourclinet">
                 <?php
                 // / Fetch client data from the database
                 $query = "SELECT * FROM clients";
@@ -225,7 +225,7 @@ include "../admin/databash/dbConnect.php";
                 ?>
                     <div class="col-lg-4">
                         <a href=" ../<?php echo $row['clients_Weblink']; ?>" target="_blank">
-                            <img src="<?php echo $row['clients_image']; ?>" alt="<?php echo $row['Client_name']; ?>">
+                            <img src="<?php echo $row['clients_image']; ?>" alt="<?php echo $row['Client_name']; ?>" style="width:100px;">
                         </a>
                     </div>
                 <?php } ?>
