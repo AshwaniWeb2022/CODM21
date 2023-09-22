@@ -18,7 +18,7 @@ include "../admin/databash/dbConnect.php";
         <div class="row">
             <div class="col-lg-6 mb-4">
                 <div id="aboutImage_Wapper">
-                    <img src="../assect/upload/home/AboutImage.jpeg" alt="about">
+                    <img src="../assect/upload/home/AboutImage.jpg" alt="about">
                     <div id="Experiens_cound">
                         <div id="count_Exp">10+</div>
                         <div class="text_count">total project</div>
