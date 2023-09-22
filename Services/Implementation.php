@@ -44,7 +44,7 @@ include "../app/header.php";
                 </p>
             </div>
             <div class="col-lg-6">
-                <img src="../assect/upload/Service/implementation-improve.png" alt="image"
+                <img src="../assect/upload/Service/implementation-improve.jpg" alt="image"
                     style="width:100%; height:380px;">
             </div>
         </div>
