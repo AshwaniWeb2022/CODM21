@@ -18,9 +18,14 @@ include "../admin/databash/dbConnect.php";
         <div class="row">
             <div class="col-lg-6 mb-4">
                 <div id="aboutImage_Wapper">
-                    <img src="../assect/upload/home/AboutImage.jpg" alt="about">
+                    <img src="../assect/upload/home/AboutImage.jpg" alt="about" class="w-100 h-100">
                     <div id="Experiens_cound">
-                        <div id="count_Exp">10+</div>
+                    <?php
+                $clinetQuery = "SELECT * FROM `clients`";
+                $clinetresult = mysqli_query($conn, $clinetQuery);
+                $clinetrowcount = mysqli_num_rows($clinetresult);
+                ?>
+                        <div id="count_Exp"><?php printf($clinetrowcount); ?>+</div>
                         <div class="text_count">total project</div>
                     </div>
                 </div>
