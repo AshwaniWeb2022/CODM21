@@ -4,7 +4,7 @@ include "../admin/databash/dbConnect.php";
 ?>
 
 <section class="header-wrapper">
-    <div style="background-image: url(../assect/upload/home/herontower2_large.webp);" class="zoominheader">
+    <div style="background-image: url(../assect/upload/home/herontower2_large.jpg);" class="zoominheader">
         <div class="zoomoutheader">
             <h1 id="typewriter" class="text-center  text-white"></h1>
             <p class="tagLine mb-5 text-white">Optimizing Sales with Salesforce CRM Solutions</p>
