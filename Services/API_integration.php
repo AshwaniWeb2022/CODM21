@@ -1,7 +1,7 @@
 <?php
 include "../app/header.php";
 ?>
-<section id="banner" style="background-image:url(../assect/upload/Service/API_background.webp);">
+<section id="banner" style="background-image:url(../assect/upload/Service/API_background.jpg);">
     <h3 class="line text-white">API Integration</h3>
 </section>
 <section class="mt-5">

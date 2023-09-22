@@ -1,7 +1,7 @@
 <?php
 include "../app/header.php";
 ?>
-<section id="banner" style="background-image:url(../assect/upload/Service/OMNISTUDIO.webp);">
+<section id="banner" style="background-image:url(../assect/upload/Service/OMNISTUDIO.jpg);">
     <h3 class="line text-white">Omnistudio (Vlocity)</h3>
 </section>
 <section class="mt-5">

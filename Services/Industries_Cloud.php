@@ -2,7 +2,7 @@
 include "../app/header.php";
 ?>
 
-<section id="banner" style="background-image:url(../assect/upload/Service/Industriescloud.webp);">
+<section id="banner" style="background-image:url(../assect/upload/Service/Industriescloud.jpg);">
     <h3 class="line-1 text-white">SALESFORCE INDUSTRIES CLOUD</h3>
 </section>
 <section class="mt-5">

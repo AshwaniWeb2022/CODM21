@@ -18,7 +18,7 @@ $aboutImageBefore = "../assect/upload/about/cur.png";
     }
 </style>
 
-<section style="background-image: url(../assect/upload/about/about_background.webp);" id="banner">
+<section style="background-image: url(../assect/upload/about/about_background.jpg);" id="banner">
     <h3 class="line-1  text-white ">Maximize your potential with codm software Experts!!</h3>
 </section>
 

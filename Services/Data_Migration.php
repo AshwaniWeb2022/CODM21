@@ -2,7 +2,7 @@
 include "../app/header.php";
 ?>
 
-<section id="banner" style="background-image:url(../assect/upload/Service/Data_Migration.webp);">
+<section id="banner" style="background-image:url(../assect/upload/Service/Data_Migration.jpg);">
     <h3 class="line text-white">Data Migration</h3>
 </section>
 

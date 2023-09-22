@@ -1,6 +1,6 @@
 <?php include "../app/header.php"; ?>
 
-<section id="banner" style="background-image:url(../assect/upload/Products/e-signature.webp);">
+<section id="banner" style="background-image:url(../assect/upload/Products/e-signature.jpg);">
     <h3 class="line-1 text-white">Streamline Your Salesforce Workflow with Secure and User-Friendly E-Signatures</h3>
 </section>
 <section class="mt-5">
