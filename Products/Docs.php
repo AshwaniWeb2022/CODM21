@@ -1,6 +1,6 @@
 <?php include "../app/header.php"; ?>
 
-<section id="banner" style="background-image:url(../assect/upload/Products/titan_docs.webp);">
+<section id="banner" style="background-image:url(../assect/upload/Products/titan_docs.jpg);">
     <h3 class="line text-white">Streamlining Salesforce DocGen Simplified Document Creation</h3>
 </section>
 <section class="mt-5">

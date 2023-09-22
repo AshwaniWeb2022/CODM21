@@ -85,7 +85,7 @@
         <nav class="nav_Header px-5" aria-label="Breadcrumb" role="navigation">
             <div class="nav__data">
                 <a href="../index/" class="nav__logo">
-                    <img src="../assect/upload/logo/logo-change-color.png" alt="websiteLogo" class="header_logo my-2">
+                    <img src="../assect/upload/logo/logo-change-color.jpg" alt="websiteLogo" class="header_logo my-2">
                 </a>
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="ri-menu-line nav__toggle-menu"></i>
@@ -167,27 +167,30 @@
                             <div class="dropdown__content ">
                                 <div class="dropdown__group">
                                     <ul class="dropdown__list">
+                                    <li>
+                                            <a href="API_integration.php" class="dropdown__link">API INTEGRATION</a>
+                                        </li>
+                                        <li>
+                                            <a href="Consulting.php" class="dropdown__link">CONSULTING SERVICES</a>
+                                        </li>
+                                        <li>
+                                            <a href="Data_Migration.php" class="dropdown__link">DATA MIGRATION</a>
+                                        </li>
                                         <li>
                                             <a href="../Services/Omni.php" class="dropdown__link">OMNISTUDIO</a>
                                         </li>
                                         <li>
                                             <a href="Industries_Cloud.php" class="dropdown__link">SALESFORCE INDUSTRIES CLOUD</a>
                                         </li>
-                                        <li>
-                                            <a href="API_integration.php" class="dropdown__link">API INTEGRATION</a>
-                                        </li>
+
                                         <li>
                                             <a href="Implementation.php" class="dropdown__link">SALESFORCE IMPLEMENTATION</a>
                                         </li>
-                                        <li>
-                                            <a href="Consulting.php" class="dropdown__link">CONSULTING SERVICES</a>
-                                        </li>
+
                                         <li>
                                             <a href="Support_And_Maintenance.php" class="dropdown__link">SUPPORT AND MAINTENANCE</a>
                                         </li>
-                                        <li>
-                                            <a href="Data_Migration.php" class="dropdown__link">DATA MIGRATION</a>
-                                        </li>
+
                                         <li>
                                             <a href="Testing_Deployment.php" class="dropdown__link">TESTING AND DEPLOYMENT</a>
                                         </li>
@@ -197,7 +200,7 @@
                         </div>
                     </li>                   
                     <li>
-                        <a href="../Contact-Us/" class="nav__link">Write To Us</a>
+                        <a href="../Contact-Us/" class="nav__link">Contact Us</a>
                     </li>
                 </ul>
             </div>

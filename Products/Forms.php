@@ -1,7 +1,7 @@
 
 <?php include "../app/header.php"; ?>
 
-<section id="banner" style="background-image:url(../assect/upload/Products/titan_forms.webp);">
+<section id="banner" style="background-image:url(../assect/upload/Products/titan_forms.jpg);">
     <h3 class="line text-white ">Unlimited possibilities for every use case and every object</h3>
 </section>
 <section class="mt-5">

@@ -1,7 +1,7 @@
 
 <?php include "../app/header.php"; ?>
 
-<section style="background-image: url(../assect/upload/career/carrer_background.webp);" id="banner">
+<section style="background-image: url(../assect/upload/career/carrer_background.jpg);" id="banner">
     <h3 class="line text-white "> Looking for exciting career opportunities, Come Join us!!</h3>
 </section>
 
@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-lg-3  col-md-4 mb-3">
                 <div id="AboutJoiningBenifit">
-                    <img src="../assect/upload/career/Transurban Group Offices - Melbourne _ Office Snapshots.jpg" alt="Friendly Environment" class="w-100">
+                    <img src="../assect/upload/career/Transurban-Group-Offices---Melbourne-_-Office-Snapshots.jpg" alt="Friendly Environment" class="w-100">
                     <div>Friendly Environment</div>
                     <p>CodM promotes a healthy and friendly work environment to promote job satisfaction and increased
                         productivity</p>

@@ -24,7 +24,7 @@ include "../app/header.php";
      }
  }
 </style>
-<section id="banner" style="background-image:url(../assect/upload/Service/Testing_Deployment.webp);">
+<section id="banner" style="background-image:url(../assect/upload/Service/Testing_Deployment.jpg);">
     <h3 class="line-1 text-white">Testing and Deployment</h3>
 </section>
 

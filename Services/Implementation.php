@@ -24,7 +24,7 @@ include "../app/header.php";
         }
     }
 </style>
-<section id="banner" style="background-image:url(../assect/upload/Service/Implementation.webp);">
+<section id="banner" style="background-image:url(../assect/upload/Service/Implementation.jpg);">
     <h3 class="line text-white">Implementation</h3>
 </section>
 <section class="mt-5">

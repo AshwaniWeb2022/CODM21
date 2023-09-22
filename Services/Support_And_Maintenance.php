@@ -1,7 +1,7 @@
 <?php
 include "../app/header.php";
 ?>
-<section id="banner" style="background-image:url(../assect/upload/Service/Support_And_Maintenance.webp);">
+<section id="banner" style="background-image:url(../assect/upload/Service/Support_And_Maintenance.jpg);">
     <h3 class="line text-white">Support And Maintenance</h3>
 </section>
 <section class="mt-5">
