@@ -134,5 +134,47 @@
         </div>
     </div>
 </section>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkZda2DK9IvFu2smN1Z99vtt9j0_Tw2ZE&callback=initMap" async defer></script>
+
+<div id="map"></div>
+
+<style>
+    #map {
+  width: 100%;
+  height: 400px;
+}
+</style>
+
+<script>
+function initMap() {
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 2, 
+    center: { lat: 0, lng: 0 }, 
+  });
+
+  const countryCoordinates = [
+    { lat: 51.5074, lng: -0.1278 }, // London, UK
+    { lat: 48.8566, lng: 2.3522 }, // Paris, France
+    { lat: 40.7128, lng: -74.0060 }, // New York, USA
+   
+  ];
+
+  // Loop through the array and add markers for each country
+  for (const coordinates of countryCoordinates) {
+    new google.maps.Marker({
+      position: coordinates,
+      map: map,
+      title: "Country Name", // Replace with the country name
+    });
+  }
+}
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    initMap();
+  });
+</script>
+
 
 <?php include "../app/footer.php"; ?>
+ 
