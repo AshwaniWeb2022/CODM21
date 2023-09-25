@@ -136,7 +136,7 @@
 </section>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkZda2DK9IvFu2smN1Z99vtt9j0_Tw2ZE&callback=initMap" async defer></script>
 
-<div id="map"></div>
+<!-- <div id="map"></div> -->
 
 <style>
     #map {
