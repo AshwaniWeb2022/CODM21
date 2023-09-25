@@ -72,10 +72,10 @@
     <div class="container">
         <div class="row mb-3">
             <div class="col-lg-3 col-md-12 mb-2">
-                <div class="footerAddressHeading pb-2 text-center">Noida, India</div>
+                <div class="footerAddressHeading pb-2 padding_footer_map-left"> <b>India</b></div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/flag-India.webp" alt="india Flag">
-                    <div class="text-dark">CodM Software Pvt. Ltd. <br> 2nd Floor, IHDP Business Park, Plot No. 7, Sector 127, Noida, Uttar Pradesh 201303, India</div>
+                    <div class="text-dark">CodM Software Pvt. Ltd. <br> 2nd Floor, IHDP Business Park, Plot No. 7, Sector 127, Noida, UP 201303, India</div>
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-solid fa-phone text-info"></i>
@@ -87,7 +87,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-12 mb-2">
-                <div class="footerAddressHeading pb-2 text-center">Faridabad, India</div>
+                <div class="footerAddressHeading pb-2 padding_footer_map-left"><b> India </b></div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/flag-India.webp" alt="india Flag">
                     <div class="text-dark">CodM Software Pvt. Ltd.<br> Business Pluss, EF3 Mall, Sector 20A, Faridabad, Haryana 121001, India</div>
@@ -102,7 +102,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-12 mb-2">
-                <div class="footerAddressHeading pb-2 text-center">UK</div>
+                <div class="footerAddressHeading pb-2 padding_footer_map-left"><b>UK</b></div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/flag-uk.webp" alt="uk Flag">
                     <div class="text-dark">Tech14 Networks Ltd. <br> Regus Edmund House 12-22, Newhall Street, Birmingham B3 3AS, UK</div>
@@ -117,10 +117,10 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-12 mb-2">
-                <div class="footerAddressHeading pb-2 text-center">USA</div>
+                <div class="footerAddressHeading pb-2 padding_footer_map-left"><b> USA</b></div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/usa_flag.png" alt="usa Flag">
-                    <div class="text-dark">Talent4World LLC <br> 4501 Nightland Dr <br> Plano, TX 75024 - USA</div>
+                    <div class="text-dark">Talent4World LLC <br> 4501 Nightland <br> Dr  Plano, <br> TX 75024 - USA</div>
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-solid fa-phone text-info"></i>
