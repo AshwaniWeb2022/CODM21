@@ -1,7 +1,6 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +15,11 @@
     best-in-class CRM solutions and work with international clients, following best practices and motivating their
     team for optimal performance.">
     <!-- website description for google bot End  -->
-
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="16x16"  href="../assect/upload/favicons/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+    <!-- favicon -->
 
     <!-- Custom Css File  -->
     <link rel="stylesheet" href="../assect/css/style.css">
@@ -27,7 +30,7 @@
     <!-- font awesome link  end -->
 
     <!-- CSS bootstrap start -->
-<link rel="stylesheet" href="../assect/plugin/bootstrap.min.css">
+    <link rel="stylesheet" href="../assect/plugin/bootstrap.min.css">
     <!-- CSS bootstrap end -->
 
     <!-- jQuary start -->
@@ -107,7 +110,7 @@
 
                         <div class="dropdown__container">
                             <div class="dropdown__content ">
-                               <div class="dropdown__group">
+                                <div class="dropdown__group">
                                     <ul class="dropdown__list">
                                         <li>
                                             <a href="../About-Us/" class="dropdown__link">About Us</a>
@@ -119,7 +122,7 @@
                                             <a href="../Blog/" class="dropdown__link">Blog</a>
                                         </li> -->
                                     </ul>
-                                </div> 
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -160,14 +163,14 @@
                     </li>
                     <li class="dropdown__item">
                         <div class="nav__link dropdown__button">
-                        Services <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            Services <i class="ri-arrow-down-s-line dropdown__arrow"></i>
                         </div>
 
                         <div class="dropdown__container ">
                             <div class="dropdown__content ">
                                 <div class="dropdown__group">
                                     <ul class="dropdown__list">
-                                    <li>
+                                        <li>
                                             <a href="../Services/API_integration.php" class="dropdown__link">API INTEGRATION</a>
                                         </li>
                                         <li>
@@ -198,7 +201,7 @@
                                 </div>
                             </div>
                         </div>
-                    </li>                   
+                    </li>
                     <li>
                         <a href="../Contact-Us/" class="nav__link">Contact Us</a>
                     </li>
