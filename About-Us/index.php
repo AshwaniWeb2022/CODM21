@@ -63,7 +63,7 @@ $aboutImageBefore = "../assect/upload/about/cur.png";
     <div class="container">
         <div class="p-5">
             <h4 class="text-center text-white" style="font-weight: 700;">Hire Our Developer</h4>
-            <p class="sub_titel text-center mb-5 mt-2 text-white">Looking for certified and experienced developers
+            <p class="sub_titel_p text-center mb-5 mt-2 text-white">Looking for certified and experienced developers
                     to work on any projects, you are in the right place. CodM provides top notch developers with
                     hands-on expertise in Salesforce implementation, support and consultation services. Highly skilled
                     developers who are dedicated in providing best quality work to the client within the defined time.
