@@ -16,11 +16,13 @@
     team for optimal performance.">
     <!-- website description for google bot End  -->
     <!-- favicon -->
-    <link rel="icon" type="image/png" sizes="16x16"  href="../assect/upload/favicons/favicon-16x16.png">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assect/upload/favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
     <!-- favicon -->
 
+    <link rel="canonical" href="https://codmsoftware.com/" />
+    <meta http-equiv="refresh" content="0; url=https://codmsoftware.com/">
     <!-- Custom Css File  -->
     <link rel="stylesheet" href="../assect/css/style.css">
 
@@ -118,9 +120,9 @@
                                         <li>
                                             <a href="../Career/" class="dropdown__link">Career</a>
                                         </li>
-                                        <!-- <li>
+                                         <!-- <li>
                                             <a href="../Blog/" class="dropdown__link">Blog</a>
-                                        </li> -->
+                                        </li>  -->
                                     </ul>
                                 </div>
                             </div>
@@ -171,13 +173,16 @@
                                 <div class="dropdown__group">
                                     <ul class="dropdown__list">
                                         <li>
-                                            <a href="../Services/API_integration.php" class="dropdown__link">API INTEGRATION</a>
+                                            <a href="API_integration.php" class="dropdown__link">API INTEGRATION</a>
                                         </li>
                                         <li>
                                             <a href="Consulting.php" class="dropdown__link">CONSULTING SERVICES</a>
                                         </li>
                                         <li>
                                             <a href="Data_Migration.php" class="dropdown__link">DATA MIGRATION</a>
+                                        </li>
+                                        <li>
+                                            <a href="manufacturing.php" class="dropdown__link">MANUFACTURING CLOUD</a>
                                         </li>
                                         <li>
                                             <a href="Omni.php" class="dropdown__link">OMNISTUDIO</a>
