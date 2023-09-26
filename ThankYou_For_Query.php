@@ -1,8 +1,6 @@
-<!-- header include  -->
-<?php include "../client/app/header.php";
+<?php include "../app/header.php";
 include "../admin/databash/dbConnect.php";
 ?>
-<!-- header include ENd -->
 <style>
     .right-tik {
         font-size: 140px;
@@ -99,7 +97,7 @@ include "../admin/databash/dbConnect.php";
 
 <section class="mt-5 mb-5 thnaku-wrapper">
     <div class="text-center ">
-    <img src="../client//imageFoleder//Cute simple phone wallpaper.gif" alt="thanku Gif">
+    <img src="../assect/upload/thanku.gif" alt="thanku Gif">
         <h1>Thank You</h1>
         <p class="pt-2">Your submission has been received.</p>
         <?php
@@ -147,6 +145,4 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 	}
 	countDown();
 </script> 
-<!-- footer include  -->
-<?php include "../client/app/footer.php"; ?>
-<!-- footer include ENd -->
+<?php include "../app/footer.php"; ?>

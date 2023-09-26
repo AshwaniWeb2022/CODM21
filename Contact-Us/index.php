@@ -19,25 +19,58 @@
                 <div class="contact-tittel-h1">Wait no further! Write to us and we will get back to you shortly.</div>
             </div>
             <div class="col-lg-7">
-                <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post" autocomplete="off" >
+            <script>
+        function validateForm() {
+            var lastName = document.forms["contactForm"]["last_name"].value;
+            var phone = document.forms["contactForm"]["phone"].value;
+            var email = document.forms["contactForm"]["email"].value;
+            var country = document.forms["contactForm"]["country"].value;
+            var purpose = document.forms["contactForm"]["00N5i00000JOFU6"].value;
+            var description = document.forms["contactForm"]["description"].value;
+
+            // Check if required fields are empty
+            if (lastName == "" || phone == "" || email == "" || country == "" || purpose == "" || description == "") {
+                alert("All fields are required");
+                return false;
+            }
+
+            // Check if email is valid
+            var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+            if (!email.match(emailPattern)) {
+                alert("Invalid email address");
+                return false;
+            }
+
+
+                 //check if phone number are 10 degite
+                if(phone > 10 || phone < 10){
+                    alert("Only 10 digit required"); 
+                    return false;
+                }
+       
+
+            return true;
+        }
+    </script>
+                <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post" autocomplete="off" name="contactForm" onsubmit="return validateForm()" class="shadow">
                     <input type=hidden name="oid" value="00D5i000008yVNX">
-                            <input type=hidden name="retURL" value="https://codmsoftware.com/salesforce_consulting_partner/ThankYou_For_Query">
+                            <input type=hidden name="retURL" value="https://codmsoftware.com/ThankYou_For_Query.html">
                             <input type="hidden" name="lead_source" value="Web">
                     <div class="row">
                         <div class="col-lg-6 mb-3">
-                            <input type="text" class="form-control border-0 border-bottom" placeholder="Your Full Name" name="last_name" require>
+                            <input type="text" class="form-control border-0 border-bottom" placeholder="Your Full Name" name="last_name" >
                         </div>
                         <div class="col-lg-6 mb-3">
                             <input type="text" class="form-control border-0 border-bottom" placeholder="Company (Optional)" name="company">
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <input type="tel" class="form-control border-0 border-bottom" placeholder="Phone Number" name="phone" require>
+                            <input type="tel" class="form-control border-0 border-bottom" placeholder="Phone Number" name="phone" >
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <input type="mail" class="form-control border-0 border-bottom" placeholder="Email Address" name="email" require>
+                            <input type="mail" class="form-control border-0 border-bottom" placeholder="Email Address" name="email" >
                         </div>
                         <div class="col-lg-6 mb-3">
-                             <select id="country-select" class="form-select border-0 border-bottom" aria-label="Country"  name="country" require>
+                             <select id="country-select" class="form-select border-0 border-bottom" aria-label="Country"  name="country" >
                                 <option hidden selected disabled>Your Country</option>
                         </select>
                         </div>
@@ -47,7 +80,7 @@
                             }
                         </style>
                         <div class="col-lg-6 mb-3">
-                            <select class="form-select border-0 border-bottom" aria-label="Purpose" name="00N5i00000JOFU6" require>
+                            <select class="form-select border-0 border-bottom" aria-label="Purpose" name="00N5i00000JOFU6" >
                                 <option hidden selected disabled>Purpose</option>
                                 <option value="Development">Development</option>
                                 <option value="Support">Support</option>
@@ -56,13 +89,15 @@
                             </select>
                         </div>
                         <div class="col-lg-12 mb-3">
-                            <textarea class="w-100 form-control border-0 border-bottom" placeholder="About Your Project" name="description" require></textarea>
+                            <textarea class="w-100 form-control border-0 border-bottom" placeholder="About Your Project" name="description" ></textarea>
                         </div>
                         <div class="col-lg-5">
                             <button class="btn btn-primary w-100" role="button" name="submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
                         </div>
                     </div>
                 </form>
+
+             
             </div>
         </div>
     </div>
@@ -134,9 +169,9 @@
         </div>
     </div>
 </section>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkZda2DK9IvFu2smN1Z99vtt9j0_Tw2ZE&callback=initMap" async defer></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkZda2DK9IvFu2smN1Z99vtt9j0_Tw2ZE&callback=initMap&libraries=places" async defer></script>
 
-<!-- <div id="map"></div> -->
+<div id="map"></div>
 
 <style>
     #map {
@@ -148,31 +183,52 @@
 <script>
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 2, 
-    center: { lat: 0, lng: 0 }, 
+    zoom: 1, 
+    center: { lat: 29.0588, lng: 76.0856}, 
   });
 
   const countryCoordinates = [
-    { lat: 51.5074, lng: -0.1278 }, // London, UK
-    { lat: 48.8566, lng: 2.3522 }, // Paris, France
-    { lat: 40.7128, lng: -74.0060 }, // New York, USA
+    { lat: 37.0902, lng: 95.7129 }, // USA
+    { lat: 28.5355, lng: 77.3910 }, // india
+    { lat: 29.0588, lng: 76.0856 }, // india
+    { lat: 52.4862, lng: 1.8904 }, // india
    
   ];
 
-  // Loop through the array and add markers for each country
+
   for (const coordinates of countryCoordinates) {
     new google.maps.Marker({
       position: coordinates,
       map: map,
-      title: "Country Name", // Replace with the country name
     });
   }
 }
-</script>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    initMap();
-  });
+ 
+    document.addEventListener("DOMContentLoaded", function () {
+      initMap();
+    });
+</script>-->
+
+
+
+
+<script> 
+const url = 'https://location-to-address.p.rapidapi.com/v1/geocode/reverse?lon=-74.0445&lat=40.68922&limit=1&lang=en';
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': '8975f8d55bmsh6f58a860fb9012dp19b650jsnb7c3695973ad',
+		'X-RapidAPI-Host': 'location-to-address.p.rapidapi.com'
+	}
+};
+
+try {
+	const response = await fetch(url, options);
+	const result = await response.text();
+	console.log(result);
+} catch (error) {
+	console.error(error);
+}
 </script>
 
 
