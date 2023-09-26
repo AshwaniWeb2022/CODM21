@@ -1,5 +1,15 @@
 RewriteEngine On
 DirectoryIndex index index.php
+DirectoryIndex services API_integration.php
+DirectoryIndex services Consulting.php
+DirectoryIndex services Data_Migration.php
+DirectoryIndex services manufacturing.php
+DirectoryIndex services Omni.php
+DirectoryIndex services Industries_Cloud.php
+DirectoryIndex services Implementation.php
+DirectoryIndex services Industries_Cloud.php
+DirectoryIndex services Support_And_Maintenance.php
+DirectoryIndex services Testing_Deployment.php
 
 DirectoryIndex admin login_form.php
 
