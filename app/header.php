@@ -140,22 +140,22 @@
                                             <a href="../Products/Forms.php" class="dropdown__link">Titan Form</a>
                                         </li>
                                         <li>
-                                            <a href="Docs.php" class="dropdown__link">Titan doc</a>
+                                            <a href="../Products/Docs.php" class="dropdown__link">Titan doc</a>
                                         </li>
                                         <li>
-                                            <a href="e-signature.php" class="dropdown__link">Titan Sign</a>
+                                            <a href="../Products/e-signature.php" class="dropdown__link">Titan Sign</a>
                                         </li>
                                         <li>
-                                            <a href="clm-contract-lifecycle-management.php" class="dropdown__link">Titan CLM</a>
+                                            <a href="../Products/clm-contract-lifecycle-management.php" class="dropdown__link">Titan CLM</a>
                                         </li>
                                         <li>
-                                            <a href="survey.php" class="dropdown__link">Titan Survey</a>
+                                            <a href="../Products/survey.php" class="dropdown__link">Titan Survey</a>
                                         </li>
                                         <li>
-                                            <a href="web-application.php" class="dropdown__link">Titan Web</a>
+                                            <a href="../Products/web-application.php" class="dropdown__link">Titan Web</a>
                                         </li>
                                         <li>
-                                            <!-- <a href="flow-automation" class="dropdown__link">Titan Flow</a> -->
+                                            <!-- <a href="../Products/flow-automation" class="dropdown__link">Titan Flow</a> -->
                                         </li>
                                     </ul>
                                 </div>
@@ -172,34 +172,34 @@
                                 <div class="dropdown__group">
                                     <ul class="dropdown__list">
                                         <li>
-                                            <a href="API_integration.php" class="dropdown__link">API INTEGRATION</a>
+                                            <a href="../Services/API_integration.php" class="dropdown__link">API INTEGRATION</a>
                                         </li>
                                         <li>
-                                            <a href="Consulting.php" class="dropdown__link">CONSULTING SERVICES</a>
+                                            <a href="../Services/Consulting.php" class="dropdown__link">CONSULTING SERVICES</a>
                                         </li>
                                         <li>
-                                            <a href="Data_Migration.php" class="dropdown__link">DATA MIGRATION</a>
+                                            <a href="../Services/Data_Migration.php" class="dropdown__link">DATA MIGRATION</a>
                                         </li>
                                         <li>
-                                            <a href="manufacturing.php" class="dropdown__link">MANUFACTURING CLOUD</a>
+                                            <a href="../Services/manufacturing.php" class="dropdown__link">MANUFACTURING CLOUD</a>
                                         </li>
                                         <li>
-                                            <a href="Omni.php" class="dropdown__link">OMNISTUDIO</a>
+                                            <a href="../Services/Omni.php" class="dropdown__link">OMNISTUDIO</a>
                                         </li>
                                         <li>
-                                            <a href="Industries_Cloud.php" class="dropdown__link">SALESFORCE INDUSTRIES CLOUD</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="Implementation.php" class="dropdown__link">SALESFORCE IMPLEMENTATION</a>
+                                            <a href="../Services/Industries_Cloud.php" class="dropdown__link">SALESFORCE INDUSTRIES CLOUD</a>
                                         </li>
 
                                         <li>
-                                            <a href="Support_And_Maintenance.php" class="dropdown__link">SUPPORT AND MAINTENANCE</a>
+                                            <a href="../Services/Implementation.php" class="dropdown__link">SALESFORCE IMPLEMENTATION</a>
                                         </li>
 
                                         <li>
-                                            <a href="Testing_Deployment.php" class="dropdown__link">TESTING AND DEPLOYMENT</a>
+                                            <a href="../Services/Support_And_Maintenance.php" class="dropdown__link">SUPPORT AND MAINTENANCE</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="../Services/Testing_Deployment.php" class="dropdown__link">TESTING AND DEPLOYMENT</a>
                                         </li>
                                     </ul>
                                 </div>
