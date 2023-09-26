@@ -1,9 +1,9 @@
 RewriteEngine On
-DirectoryIndex index index.php
+; DirectoryIndex index index.php
 
 
-Redirect 301 /API_integration.php https://codmsoftware.com/Services/API_integration.php
-Redirect 301 /Consulting.php https://codmsoftware.com/Services/Consulting.php
+Redirect 302 /API_integration.php https://codmsoftware.com/Services/API_integration.php
+Redirect 302 /Consulting.php https://codmsoftware.com/Services/Consulting.php
 
 
 DirectoryIndex admin login_form.php
@@ -11,6 +11,7 @@ DirectoryIndex admin login_form.php
 ErrorDocument 404 /404.html
 
 ErrorDocument 500 /500.html
+
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
