@@ -1,9 +1,7 @@
 RewriteEngine On
-; DirectoryIndex index index.php
+ DirectoryIndex index index.php
 
 
-Redirect 302 /API_integration.php https://codmsoftware.com/Services/API_integration.php
-Redirect 302 /Consulting.php https://codmsoftware.com/Services/Consulting.php
 
 
 DirectoryIndex admin login_form.php
