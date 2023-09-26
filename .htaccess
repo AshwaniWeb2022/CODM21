@@ -3,6 +3,7 @@ DirectoryIndex index index.php
 
 
 Redirect 301 /API_integration.php https://codmsoftware.com/Services/API_integration.php
+Redirect 301 /Consulting.php https://codmsoftware.com/Services/Consulting.php
 
 
 DirectoryIndex admin login_form.php
