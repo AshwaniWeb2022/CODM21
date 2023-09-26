@@ -22,7 +22,6 @@
     <!-- favicon -->
 
     <link rel="canonical" href="https://codmsoftware.com/" />
-    <meta http-equiv="refresh" content="0; url=https://codmsoftware.com/">
     <!-- Custom Css File  -->
     <link rel="stylesheet" href="../assect/css/style.css">
 
