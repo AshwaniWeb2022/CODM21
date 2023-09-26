@@ -2,7 +2,7 @@
 <?php include "../app/header.php"; ?>
 
 
-<section id="banner" style="background-image:url(../assect/upload/Products/clm-contract-lifecycle-management\ .jpg);">
+<section id="banner" style="background-image:url(../assect/upload/Products/clm-contract-lifecycle-management.jpg);">
     <h3 class="line text-white">Streamline CLM with Easy Contract Lifecycle Management Solutions</h3>
 </section>
 <section class="mt-5">
