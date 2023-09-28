@@ -1,5 +1,5 @@
 <?php
-include "../client/app/header.php";
+include "../app/header.php";
 include "../admin/databash/dbConnect.php";
 ?>
 <?php
@@ -24,5 +24,5 @@ $row = mysqli_fetch_assoc($result);
 </section>
 
 <!-- footer include  -->
-<?php include "../client/app/footer.php"; ?>
+<?php include "../app/footer.php"; ?>
 <!-- footer include ENd -->
