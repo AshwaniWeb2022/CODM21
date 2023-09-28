@@ -15,7 +15,7 @@ include "../admin/databash/dbConnect.php";
 
             <div class="col-lg-4 col-md-6 mb-4" id="blog_wepper">
                 <a href="Full_Blog_Prevriew.php?blog_id=<?php echo $blogrow['blog_id']; ?>">
-                    <img src="../admin/Blog_images/<?php echo $blogrow['blog_image']; ?>" alt="<?php echo $blogrow['blog_tital']; ?>" id="blogimagebanner">
+                    <img src="../admin/Blog_image/<?php echo $blogrow['blog_image']; ?>" alt="<?php echo $blogrow['blog_tital']; ?>" id="blogimagebanner">
                     <h4 class="mt-2"><?php echo $blogrow['blog_tital']; ?></h4>
                     <p class="mt-2"><?php echo $blogrow['blog_UI_pra']; ?></p>
                 </a>

@@ -151,7 +151,10 @@ include "../admin/databash/dbConnect.php";
                 <div class="expertiseBox blue">
                     <img src="../assect/upload/home/ServiceCloudIcon.png" alt="ExpertiseIcon" class="mb-2">
                     <div class="expertiseBoxTitel mb-3 mt-2">Service Cloud</div>
-                    <div class="expertiseBoxSubTitel text-muted">Service Cloud is at the heart of personalized service, delivering efficient and connected experiences. It streamlines workflows, automates processes and provides expert support to customer service representatives. With the goal of driving one-to-one marketing relationships, it empowers companies to engage customers across all channels and devices
+                    <div class="expertiseBoxSubTitel text-muted">Service Cloud is at the heart of personalized service, delivering efficient and connected experiences. It streamlines
+                         workflows, automates processes and provides expert support to customer service representatives. With the goal of
+                          driving one-to-one marketing relationships, it empowers companies to engage customers across all channels and 
+                          devices
                     </div>
                 </div>
             </div>

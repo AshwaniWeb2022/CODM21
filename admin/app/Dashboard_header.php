@@ -6,12 +6,12 @@ require "../admin/databash/dbConnect.php"
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodM Software  </title>
+    <title>CodM Software</title>
  <!-- Le CSS
     ================================================== -->
     <link rel="stylesheet" href="https://bootadmin.org/style/vendor/library.min.css">
   <link rel="stylesheet" href="https://bootadmin.org/style/vendor/jqueryui-flat/jquery-ui.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" >
 
   <link rel="stylesheet" href="https://bootadmin.org/style/core/style.min.css">
 
@@ -35,7 +35,7 @@ require "../admin/databash/dbConnect.php"
               <div class="logo">
                 <a href="/">
                   <span class="logo-emblem"><img src="https://bootadmin.org/images/boot.png" alt="BA" /></span>
-                  <span class="logo-full">Bootadmin</span>
+                  <span class="logo-full">CodM</span>
                 </a>
               </div>
               <a href="#" class="menu-toggle wave-effect">
@@ -68,7 +68,7 @@ require "../admin/databash/dbConnect.php"
         </div>
         <ul id="sidebarCookie">
           <li class="nav-item">
-            <a class="nav-link wave-effect collapsed wave-effect" href="../admin/Dashboard">
+            <a class="nav-link wave-effect collapsed wave-effect" href="../admin/Dashboard.php">
               <i class="feather icon-grid"></i>
               <span class="menu-title">Dashboard</span>
             </a>
@@ -82,11 +82,11 @@ require "../admin/databash/dbConnect.php"
           <li class="nav-item">
             <a class="nav-link wave-effect collapsed wave-effect" href="../admin/Event_Upload_Dashboard.php">
               <i class="feather icon-grid"></i>
-              <span class="menu-title">Event images Dashboard</span>
+              <span class="menu-title">Event Dashboard</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link wave-effect collapsed wave-effect" href="../admin/Blog_Upload_Dashboard">
+            <a class="nav-link wave-effect collapsed wave-effect" href="../admin/Blog_Upload_Dashboard.php">
               <i class="feather icon-grid"></i>
               <span class="menu-title">Blog Dashboard</span>
             </a>

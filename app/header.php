@@ -119,9 +119,9 @@
                                         <li>
                                             <a href="../Career/" class="dropdown__link">Career</a>
                                         </li>
-                                         <!-- <li>
+                                        <li>
                                             <a href="../Blog/" class="dropdown__link">Blog</a>
-                                        </li>  -->
+                                        </li>  
                                     </ul>
                                 </div>
                             </div>

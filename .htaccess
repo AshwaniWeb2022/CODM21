@@ -1,16 +1,17 @@
+# directory rewrite index panel 
 RewriteEngine On
  DirectoryIndex index index.php
 
-
-
-
+# directory rewrite admin panel 
 DirectoryIndex admin login_form.php
 
+# error 400 page 
 ErrorDocument 404 /404.html
 
+# error 500 page 
 ErrorDocument 500 /500.html
 
-
+# hide index.php file name 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -20,4 +21,12 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^([^/]+)/?$ $1.php [L]
+
+
+RewriteEngine On
+RewriteBase /
+
+# Rewrite rule to hide the directory in the URL
+RewriteRule ^desired_url_path/([^/]+)$ index/$1 [L]
+
 

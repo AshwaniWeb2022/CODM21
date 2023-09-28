@@ -42,7 +42,7 @@ include "../admin/databash/dbConnect.php";
                 </div>
                 <div class="col-lg-3 mb-3">
                     <div class="input_box">
-                        <input type="file" name="file" placeholder="image" >
+                        <input type="file" name="file" placeholder="image" class="form-control">
                     </div>
                 </div>
                 <div class="col-lg-12">
@@ -85,6 +85,9 @@ while($blogdataadmin = mysqli_fetch_assoc($blogresultadmin)){
 <tr>
     <td><?php echo $blogdataadmin['blog_tital'] ?></td>
     <td><?php echo $blogdataadmin['blog_date']  ?></td>
+    <td><i class="fa-solid fa-trash-can"></i></td>
+    <td><a href="edit_blog.php?id=<?php echo $blogdataadmin['blog_id']; ?>" class="btn btn-warning">Edit</a></td>
+
 </tr>
 
 
