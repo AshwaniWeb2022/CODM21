@@ -18,15 +18,28 @@ if (isset($_POST['updateBlog'])) {
         $file_size = $_FILES['file']['size'];
 
         // Check file size and type here, and move the file to the desired location
-        // if ($file_size > 2097152) { // 2MB
-        //     echo "File size is too large.";
-        // } elseif (!in_array($file_type, ['image/jpeg', 'image/png'])) {
-        //     echo "Invalid file type. Only JPG and PNG files are allowed.";
-        // } else {
-        //     move_uploaded_file($file_tmp, "upload_dir/" . $file_name);
-        // }
+        $upload_dir = "../admin/Blog_image/"; // Replace with your desired upload directory
+        $allowed_file_types = ['image/jpeg', 'image/png'];
 
-        // You should replace the above comments with your own file handling logic.
+        if ($file_size > 2097152) { // 2MB
+            echo "File size is too large.";
+        } elseif (!in_array($file_type, $allowed_file_types)) {
+            echo "Invalid file type. Only JPG and PNG files are allowed.";
+        } else {
+            // Generate a unique file name to prevent overwriting existing files
+            $file_name = uniqid() . "_" . $file_name;
+            
+            // Move the file to the upload directory
+            if (move_uploaded_file($file_tmp, $upload_dir . $file_name)) {
+            } else {
+                echo "Error uploading the file.";
+                exit();
+            }
+        }
+    } else {
+        // No file was uploaded, so you may want to handle this case accordingly
+        // $file_name should be initialized or set to null in this case
+        $file_name = null;
     }
 
     // Perform the database update query
@@ -45,3 +58,4 @@ if (isset($_POST['updateBlog'])) {
     echo "Invalid request.";
 }
 ?>
+
