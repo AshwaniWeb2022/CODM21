@@ -21,9 +21,9 @@ require "../admin/databash/dbConnect.php"
 </head>
 
 <body id="landing" class="sidebar-open">
-  <div class="loading">
+  <!-- <div class="loading">
     <div class="loading-center"><img src="https://bootadmin.org/images/loading/map.gif" alt="Loading" /></div>
-  </div>
+  </div> -->
   <div class="page-container animsition">
     <div id="dashboardPage">
 

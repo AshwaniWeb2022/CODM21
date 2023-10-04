@@ -33,11 +33,11 @@ include("../admin/databash/dbConnect.php")
                 <div class="col-lg-1">
                     <img src="<?php echo $row['clients_image']; ?>" alt="<?php echo $row['Client_name']; ?>">
                     <a href=" <?php echo $row['clients_Weblink']; ?>" target="_blank"><?php echo $row['clients_Weblink']; ?></a>
-                    <form action="../admin/delete.php" method="POST" class="mt-3">
-                        <input type="hidden" name="client_id" value="<?php echo $row['id']; ?>">
-                        <button type="submit" class="btn btn-danger">Delete</button>
-                    </form>
-                </div>
+                    <a href="ClinteDelete.php?id=<?php echo $row['id'];?>" class="btn btn-danger" 
+                    onclick="return confirm('Are you sure you want to delete this record?')">Delete</a>
+                      </div>
+
+
             <?php } ?>
         </div>
     </div>

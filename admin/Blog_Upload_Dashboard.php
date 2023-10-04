@@ -3,7 +3,7 @@ include "../admin/app/Dashboard_header.php";
 include "../admin/databash/dbConnect.php";
 ?>
 <style>
-    table{
+    table {
         width: 100%;
         border-collapse: collapse;
         margin: 0;
@@ -11,8 +11,8 @@ include "../admin/databash/dbConnect.php";
         text-align: center;
     }
 
-    table th{
-        background-color:yellowgreen;
+    table th {
+        background-color: yellowgreen;
         color: #ffffff;
     }
 </style>
@@ -67,34 +67,36 @@ include "../admin/databash/dbConnect.php";
         </form>
 
         <hr>
-          <table class="table">
-    <tr>
-    <th>Titel</th>
-    <th>Date</th>
-    <th>Update</th>
-    <th>Delete</th>
-</tr>
-        <?php
+        <table class="table">
+            <tr>
+                <th>Titel</th>
+                <th>Date</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+            <?php
 
-$blogdisplyaadmin = "SELECT * FROM `blogs` ";
-$blogresultadmin = mysqli_query($conn, $blogdisplyaadmin);
-while($blogdataadmin = mysqli_fetch_assoc($blogresultadmin)){
-?>
-      
-
-<tr>
-    <td><?php echo $blogdataadmin['blog_tital'] ?></td>
-    <td><?php echo $blogdataadmin['blog_date']  ?></td>
-    <td><i class="fa-solid fa-trash-can"></i></td>
-    <td><a href="edit_blog.php?id=<?php echo $blogdataadmin['blog_id']; ?>" class="btn btn-warning">Edit</a></td>
-
-</tr>
+            $blogdisplyaadmin = "SELECT * FROM `blogs` ";
+            $blogresultadmin = mysqli_query($conn, $blogdisplyaadmin);
+            while ($blogdataadmin = mysqli_fetch_assoc($blogresultadmin)) {
+            ?>
 
 
-<?php
-          }
-?>
-</table>
+                <tr>
+                    <td><?php echo $blogdataadmin['blog_tital'] ?></td>
+                    <td><?php echo $blogdataadmin['blog_date']  ?></td>
+                    <td>
+    <a href="BlogDelete.php?blog_id=<?php echo $blogdataadmin['blog_id']; ?>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this record?')">Delete</a>
+</td>
+                    <td><a href="edit_blog.php?id=<?php echo $blogdataadmin['blog_id']; ?>" class="btn btn-warning">Edit</a></td>
+
+                </tr>
+
+
+            <?php
+            }
+            ?>
+        </table>
 
     </div>
 </main>
