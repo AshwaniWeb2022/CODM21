@@ -18,7 +18,7 @@ if (isset($_POST['updateBlog'])) {
         $file_size = $_FILES['file']['size'];
 
         // Check file size and type here, and move the file to the desired location
-        $upload_dir = "../admin/Blog_image/"; // Replace with your desired upload directory
+        $upload_dir = "../admin/Blog_image/" . $file_name; // Replace with your desired upload directory
         $allowed_file_types = ['image/jpeg', 'image/png'];
 
         if ($file_size > 2097152) { // 2MB
@@ -30,7 +30,7 @@ if (isset($_POST['updateBlog'])) {
             $file_name = uniqid() . "_" . $file_name;
             
             // Move the file to the upload directory
-            if (move_uploaded_file($file_tmp, $upload_dir . $file_name)) {
+            if (move_uploaded_file($file_tmp, $upload_dir)) {
             } else {
                 echo "Error uploading the file.";
                 exit();
