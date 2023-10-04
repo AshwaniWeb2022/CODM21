@@ -18,7 +18,6 @@ if (isset($_POST['updateBlog'])) {
         $file_size = $_FILES['file']['size'];
 
         // Check file size and type here, and move the file to the desired location
-        // Example checks:
         // if ($file_size > 2097152) { // 2MB
         //     echo "File size is too large.";
         // } elseif (!in_array($file_type, ['image/jpeg', 'image/png'])) {

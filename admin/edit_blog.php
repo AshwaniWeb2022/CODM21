@@ -15,7 +15,7 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
         // Display the edit form with the existing blog data
 ?>
 
-        <main>
+        <main class="mb-5">
             <div class="container">
                 <h3 class="Edit_Blog_Title">Edit Blog Entry</h3>
                 <form action="../admin/update_blog.php" method="post" enctype="multipart/form-data">
@@ -32,17 +32,16 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
                             </div>
                         </div>
                         <div class="col-lg-3 mb-3">
-                        <div class="col-lg-3 mb-3">
                             <div class="input_box">
-                                <input type="file" name="file" class="form-control" value="<?php echo htmlspecialchars($blog_data['blog_image']); ?>">
+                                <input type="file" name="file" class="form-control">
+                                <input type="text"  disabled value="<?php echo htmlspecialchars($blog_data['blog_image']); ?>" class="form-control mt-2">
                             </div>
                         </div>
-                        </div>
                         <div class="col-lg-12">
-                            <textarea name="blog-conn-UI" class="form-control mb-3" placeholder="Blog Title Content"><?php echo $blog_data['blog_UI_pra']; ?></textarea>
+                            <textarea name="blog-conn-UI" class="form-control mb-3" placeholder="Blog Title Content"> <?php echo $blog_data['blog_UI_pra']; ?></textarea>
                         </div>
                         <div class="col-lg-12 mb-3">
-                            <textarea name="editor" id="editor" value="<?php echo $blog_data['blog_con']; ?>"></textarea>
+                            <textarea name="editor" id="editor"><?php echo $blog_data['blog_con']; ?></textarea>
                             <script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
                             <script type="text/javascript">
                                 CKEDITOR.replace('editor', {

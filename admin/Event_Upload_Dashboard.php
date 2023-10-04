@@ -28,10 +28,7 @@ include("../admin/databash/dbConnect.php")
             ?>
           <div class="col-lg-3">
           <img src="<?php echo $row['image_data']; ?>" alt="<?php echo $row['image_name']; ?>">
-          <form action="../admin/delete.php" method="POST" class="mt-3">
-                        <input type="hidden" name="Event_id" value="<?php echo $row['id']; ?>">
-                        <button type="submit" class="btn btn-danger">Delete</button>
-                    </form>
+          <a href="EventDelete.php?id=<?php echo $row['id']; ?>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this record?')">Delete</a>
           </div>
           <?php } ?>    
         </div>
