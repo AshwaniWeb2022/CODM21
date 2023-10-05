@@ -30,9 +30,8 @@ include("../admin/databash/dbConnect.php")
             $result = mysqli_query($conn, $query);
             while ($row = mysqli_fetch_assoc($result)) {
             ?>
-                <div class="col-lg-1">
+                <div class="col-lg-1 mb-2">
                     <img src="<?php echo $row['clients_image']; ?>" alt="<?php echo $row['Client_name']; ?>">
-                    <a href=" <?php echo $row['clients_Weblink']; ?>" target="_blank"><?php echo $row['clients_Weblink']; ?></a>
                     <a href="ClinteDelete.php?id=<?php echo $row['id'];?>" class="btn btn-danger" 
                     onclick="return confirm('Are you sure you want to delete this record?')">Delete</a>
                       </div>

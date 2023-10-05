@@ -24,7 +24,7 @@ if (isset($_POST['blogSubmit'])) {
         if (mysqli_stmt_execute($stmt)) {
             echo '<script>';
             echo 'window.location.href = "../admin/Blog_Upload_Dashboard.php";';
-            echo 'alert("Upload image in database");';
+            echo 'alert("Upload Blog on displaye");';
             echo '</script>';
         } else {
             echo "Error: " . mysqli_error($conn);
@@ -40,6 +40,6 @@ if (isset($_POST['blogSubmit'])) {
 } else {
 			     echo '<script>';
             echo 'window.location.href = "../admin/Blog_Upload_Dashboard.php";';
-            echo 'alert("Error: Form not submitted..");';
+            echo 'alert("Error: Form not submitted.");';
             echo '</script>';
 }

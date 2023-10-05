@@ -26,7 +26,7 @@ include("../admin/databash/dbConnect.php")
             $result = mysqli_query($conn, $query);
             while ($row = mysqli_fetch_assoc($result)) {
             ?>
-          <div class="col-lg-3">
+          <div class="col-lg-3 mb-2">
           <img src="<?php echo $row['image_data']; ?>" alt="<?php echo $row['image_name']; ?>">
           <a href="EventDelete.php?id=<?php echo $row['id']; ?>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this record?')">Delete</a>
           </div>
