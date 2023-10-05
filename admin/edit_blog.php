@@ -5,9 +5,9 @@ include "../admin/databash/dbConnect.php";
 if (isset($_GET['id']) && is_numeric($_GET['id'])) {
     $blog_id = $_GET['id'];
 
-    // Fetch the blog entry details using prepared statements to prevent SQL injection
-    $fetch_blog_query = "SELECT * FROM `blogs` WHERE `blog_id` = ?";
-
+    // Fetch the blog entry details
+    $fetch_blog_query = "SELECT * FROM `blogs` WHERE `blog_id` = $blog_id";
+    $fetch_blog_result = mysqli_query($conn, $fetch_blog_query);
 
     if ($fetch_blog_result && mysqli_num_rows($fetch_blog_result) > 0) {
         $blog_data = mysqli_fetch_assoc($fetch_blog_result);
@@ -63,7 +63,7 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
                 </form>
             </div>
         </main>
-<?php
+        <?php
     } else {
         echo "Blog entry not found.";
     }
