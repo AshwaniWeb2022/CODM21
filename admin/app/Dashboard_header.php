@@ -1,6 +1,4 @@
-<?php
-require "../admin/databash/dbConnect.php"
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -89,6 +87,12 @@ require "../admin/databash/dbConnect.php"
             <a class="nav-link wave-effect collapsed wave-effect" href="../admin/Blog_Upload_Dashboard.php">
               <i class="feather icon-grid"></i>
               <span class="menu-title">Blog Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link wave-effect collapsed wave-effect" href="../admin/career/index.php">
+              <i class="feather icon-grid"></i>
+              <span class="menu-title">Carrer Dashboard</span>
             </a>
           </li>
           <li class="spacer"></li>
