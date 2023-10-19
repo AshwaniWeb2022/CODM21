@@ -13,11 +13,11 @@ if (isset($_POST['First_Name']) && isset($_POST['Last_Name']) && isset($_POST['M
     $Sex = $_POST["radio_S"];
     $Select_Civil_Status = $_POST["radio_c"];
 
-    $message = "Name = " . $First_Name . " " . $Middle_Name . " " . $Last_Name . "\r\n SEX = ". $Sex . "\r\n Select Civil Status = ". $Select_Civil_Status . "\r\n Email = " . $email . "\r\n Phone number = " . $mobile . "\r\ nAddress = " . $address . "\r\n Education = " . $Eduction . "\r\n Job Profile = " . $Job_Profile;
+    $message = "Name = " . $First_Name . " " . $Middle_Name . " " . $Last_Name . "\r\n SEX = ". $Sex . "\r\n Select Civil Status = ". $Select_Civil_Status . "\r\n Email = " . $email . "\r\n Phone number = " . $mobile . "\r\n Address = " . $address . "\r\n Education = " . $Eduction . "\r\n Job Profile = " . $Job_Profile;
     $subject = $Job_Profile;
     $fromname = "CodMsoftware.com";
     $fromemail = $email;
-    $mailto = 'ashwani.kumar@codmsoftware.com';
+    $mailto = 'karan.dandriyal@codmsoftware.com';
 
     $content = file_get_contents($fileName);
     $content = chunk_split(base64_encode($content));
@@ -50,6 +50,9 @@ if (isset($_POST['First_Name']) && isset($_POST['Last_Name']) && isset($_POST['M
     }
 } else {
     // Handle the case when some form fields are missing
-    echo "Some form fields are missing.";
+    echo '<script>';
+    echo 'window.location.href = "../Career/JobList.php";';
+    echo 'alert("Some form fields are missing.");';
+    echo '</script>';
 }
 ?>
