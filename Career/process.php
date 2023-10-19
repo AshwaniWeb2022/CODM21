@@ -17,7 +17,7 @@ if (isset($_POST['First_Name']) && isset($_POST['Last_Name']) && isset($_POST['M
     $subject = $Job_Profile;
     $fromname = "CodMsoftware.com";
     $fromemail = $email;
-    $mailto = 'ashwani.kumar@codmsoftware.com';
+    $mailto = 'karan.dandriyal@codmsoftware.com';
 
     $content = file_get_contents($fileName);
     $content = chunk_split(base64_encode($content));
@@ -50,6 +50,9 @@ if (isset($_POST['First_Name']) && isset($_POST['Last_Name']) && isset($_POST['M
     }
 } else {
     // Handle the case when some form fields are missing
-    echo "Some form fields are missing.";
+    echo '<script>';
+    echo 'window.location.href = "../Career/JobList.php";';
+    echo 'alert("Some form fields are missing.");';
+    echo '</script>';
 }
 ?>
