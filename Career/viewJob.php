@@ -62,7 +62,7 @@ if ($fetch_blog_result && mysqli_num_rows($fetch_blog_result) > 0) {
                 </div>
                 <div class="explain-contents ps-2 pt-1">
                     <div class="explain-title">Work Level</div>
-                    <div class="explain-subtitle"><?php echo $blog_data['Career_Work_Level'];?></div>
+                    <div class="explain-subtitle"><?php echo $blog_data['Career_WorkLev'];?></div>
                 </div>
                 <div class="explain-contents ps-2 pt-1">
                     <div class="explain-title">Employee Type</div>
@@ -87,30 +87,30 @@ if ($fetch_blog_result && mysqli_num_rows($fetch_blog_result) > 0) {
             <div class="form_check mb-4">
                 <span><b>SEX : </b></span>
                 <span>
-                    <input type="radio" name="radio_Female" id="">
+                    <input type="radio" name="radio_S" id="" value="Female">
                     <label for="Female">Female</label>
                 </span>
                 <span>
-                    <input type="radio" name="radio_Male" id="">
+                    <input type="radio" name="radio_S" id="" value="Male">
                     <label for="Female">Male</label>
                 </span>
                 <span>
-                    <input type="radio" name="radio_Other" id="">
+                    <input type="radio" name="radio_S" id="" value="Other">
                     <label for="Female">Other</label>
                 </span>
             </div>
             <div class="form_check mb-4">
                 <span><b>Select Civil Status : </b></span>
                 <span>
-                    <input type="radio" name="radio_Single" id="">
+                    <input type="radio" name="radio_c" id="" value="Single">
                     <label for="Female">Single</label>
                 </span>
                 <span>
-                    <input type="radio" name="radio_Married" id="">
+                    <input type="radio" name="radio_c" id="" value="Married">
                     <label for="Female">Married</label>
                 </span>
                 <span>
-                    <input type="radio" name="radio_Widow" id="">
+                    <input type="radio" name="radio_c" id="" value="Widow">
                     <label for="Female">Widow</label>
                 </span>
             </div>

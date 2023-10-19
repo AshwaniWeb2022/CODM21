@@ -1,4 +1,3 @@
-
 <?php include "../app/header.php"; ?>
 
 <section style="background-image: url(../assect/upload/career/carrer_background.jpg);" id="banner">
@@ -54,7 +53,7 @@
         <p class="text-center text-white"> Are you looking for Salesforce jobs? Explore the world of exciting
             opportunities at CodM</p>
         <div class="text-center">
-            <a href="#!" class="btn btn-secondary text-uppercase">job opening post</a>
+            <a href="../Career/JobList.php" target="_blank" class="btn btn-secondary text-uppercase">job opening post</a>
 
         </div>
     </div>
