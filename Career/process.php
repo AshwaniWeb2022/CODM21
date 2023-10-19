@@ -1,5 +1,5 @@
 <?php
-if (isset($_POST['First_Name']) && isset($_POST['Last_Name']) && isset($_POST['Middle_Name']) && isset($_POST['Mail_c']) && isset($_POST['Contact_c']) && isset($_POST['Address_c']) && isset($_POST['Education_c']) && isset($_FILES['file'])) {
+if (isset($_POST['First_Name']) && isset($_POST['Last_Name']) && isset($_POST['Middle_Name']) && isset($_POST['Mail_c']) && isset($_POST['Contact_c']) && isset($_POST['Address_c']) && isset($_POST['Education_c']) && isset($_FILES['file']) && isset($_POST['radio_S']) && isset($_POST['radio_c'])) {
     $filenameee = $_FILES['file']['name'];
     $fileName = $_FILES['file']['tmp_name'];
     $Job_Profile = $_POST['Job_Profile'];
@@ -10,8 +10,10 @@ if (isset($_POST['First_Name']) && isset($_POST['Last_Name']) && isset($_POST['M
     $mobile = $_POST["Contact_c"];
     $address = $_POST["Address_c"];
     $Eduction = $_POST["Education_c"];
+    $Sex = $_POST["radio_S"];
+    $Select_Civil_Status = $_POST["radio_c"];
 
-    $message = "Name = " . $First_Name . " " . $Middle_Name . " " . $Last_Name . "\r\nEmail = " . $email . "\r\nPhone number = " . $mobile . "\r\nAddress = " . $address . "\r\nEducation = " . $Eduction . "\r\nJob Profile" . $Job_Profile;
+    $message = "Name = " . $First_Name . " " . $Middle_Name . " " . $Last_Name . "\r\n SEX = ". $Sex . "\r\n Select Civil Status = ". $Select_Civil_Status . "\r\n Email = " . $email . "\r\n Phone number = " . $mobile . "\r\ nAddress = " . $address . "\r\n Education = " . $Eduction . "\r\n Job Profile = " . $Job_Profile;
     $subject = $Job_Profile;
     $fromname = "CodMsoftware.com";
     $fromemail = $email;
