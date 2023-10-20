@@ -70,8 +70,12 @@ if ($fetch_blog_result && mysqli_num_rows($fetch_blog_result) > 0) {
                 </div>
             </div>
             <div class="overview-text ps-2 pt-3">
-    <div class="overview-text-header"><b>Job Description</b></div>
+    <div class="overview-text-header"><b>Role Description</b></div>
     <div class="overview-text-item"><?php echo $blog_data['Career_Job_Description'];?></div>
+    </div>
+            <div class="overview-text ps-2 pt-3">
+    <div class="overview-text-header"><b>Job Description</b></div>
+    <div class="overview-text-item"><?php echo $blog_data['Job__Description'];?></div>
     </div>
         </div>
 
