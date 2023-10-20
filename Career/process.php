@@ -1,5 +1,5 @@
 <?php
-if (isset($_POST['First_Name']) && isset($_POST['Last_Name']) && isset($_POST['Middle_Name']) && isset($_POST['Mail_c']) && isset($_POST['Contact_c']) && isset($_POST['Address_c']) && isset($_POST['Education_c']) && isset($_FILES['file']) && isset($_POST['radio_S']) && isset($_POST['radio_c'])) {
+if (isset($_POST['First_Name']) && isset($_POST['Last_Name']) && isset($_POST['Mail_c']) && isset($_POST['Contact_c']) && isset($_POST['Address_c']) && isset($_POST['Education_c']) && isset($_FILES['file']) && isset($_POST['radio_S']) && isset($_POST['radio_c'])) {
     $filenameee = $_FILES['file']['name'];
     $fileName = $_FILES['file']['tmp_name'];
     $Job_Profile = $_POST['Job_Profile'];
@@ -14,7 +14,7 @@ if (isset($_POST['First_Name']) && isset($_POST['Last_Name']) && isset($_POST['M
     $Select_Civil_Status = $_POST["radio_c"];
 
     $message = "Name = " . $First_Name . " " . $Middle_Name . " " . $Last_Name . "\r\n SEX = ". $Sex . "\r\n Select Civil Status = ". $Select_Civil_Status . "\r\n Email = " . $email . "\r\n Phone number = " . $mobile . "\r\n Address = " . $address . "\r\n Education = " . $Eduction . "\r\n Job Profile = " . $Job_Profile;
-    $subject = $Job_Profile;
+    $subject = "Applied for" . $Job_Profile;
     $fromname = "CodMsoftware.com";
     $fromemail = $email;
     $mailto = 'karan.dandriyal@codmsoftware.com';

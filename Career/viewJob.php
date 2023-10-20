@@ -65,7 +65,7 @@ if ($fetch_blog_result && mysqli_num_rows($fetch_blog_result) > 0) {
                     <div class="explain-subtitle"><?php echo $blog_data['Career_WorkLev'];?></div>
                 </div>
                 <div class="explain-contents ps-2 pt-1">
-                    <div class="explain-title"><b>Employee Type</b></div>
+                    <div class="explain-title"><b>Employment Type</b></div>
                     <div class="explain-subtitle"><?php echo $blog_data['Career_Employee_Type'];?></div>
                 </div>
             </div>
@@ -82,7 +82,7 @@ if ($fetch_blog_result && mysqli_num_rows($fetch_blog_result) > 0) {
     </div>
     <div class="col-lg-6">
         <form action="../Career/process.php" enctype="multipart/form-data" class="shadow mb-2" method="POST" id="CarreForm">
-            <input type="text" name="Job_Profile" id="Job_Profile" class="form-control border-0 border-bottom mb-4" value="<?php echo $blog_data['Career_Tital'];?>" onchange="validateJobProfile()" onblur="validateJobProfileBuler()" >
+            <input type="text" name="Job_Profile" id="Job_Profile" class="form-control border-0 border-bottom mb-4" value="<?php echo $blog_data['Career_Tital'];?>" >
             <input type="text" name="First_Name" id="First_Name" class="form-control border-0 border-bottom mb-4" placeholder="First Name">
             <input type="text" name="Last_Name" id="Last_Name" class="form-control border-0 border-bottom mb-4" placeholder="Last Name">
             <input type="text" name="Middle_Name" id="" class="form-control border-0 border-bottom mb-4" placeholder="Middle Name (Optional)">
@@ -118,7 +118,7 @@ if ($fetch_blog_result && mysqli_num_rows($fetch_blog_result) > 0) {
                     <label for="Female">Widow</label>
                 </span>
             </div>
-            <input type="text" name="Education_c" id="Education_c" class="form-control border-0 border-bottom mb-4" placeholder="Educational Attainment">
+            <input type="text" name="Education_c" id="Education_c" class="form-control border-0 border-bottom mb-4" placeholder="Higher Education">
             <input type="text" name="Address_c" id="Address_c" class="form-control border-0 border-bottom mb-4" placeholder="Address">
             <div class="resume">
                 <label class="mb-2">Attach your Resume here.</label>
