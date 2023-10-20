@@ -8,10 +8,11 @@ if (isset($_POST['submitCareer'])) {
     $WorkLevel = $_POST['Work_Level'];
     $EmployeeType = $_POST['Employee_Type'];
     $JobDescription = $_POST['Job_Description'];
+    $RolDescription = $_POST['Role_Description'];
 
 
-    $JobList_SQl = "INSERT INTO `careers`( `Career_Tital`, `Career_Country`, `Career_Employee_Type`, `Career_Job_Description`, `Career_Minimum _Year`, `Career_WorkLev`)
-     VALUES ('$titel','$Location','$EmployeeType','$JobDescription','$Experience','$WorkLevel')";
+    $JobList_SQl = "INSERT INTO `careers`( `Career_Tital`, `Career_Country`, `Career_Employee_Type`, `Career_Job_Description`, `Career_Minimum _Year`, `Career_WorkLev`, `Job__Description`)
+     VALUES ('$titel','$Location','$EmployeeType','$RolDescription','$Experience','$WorkLevel','$JobDescription')";
     if (mysqli_query($conn, $JobList_SQl)) {
         echo '<script>';
         echo 'alert("Data inserted successfully.");';

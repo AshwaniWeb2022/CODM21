@@ -27,8 +27,21 @@ include "../databash/dbConnect.php"
                     <input type="text" name="Employee_Type" class="form-control">
                 </div>
                 <div class="form_box_group col-lg-12 mb-3">
-                    <label for="Job_Description"><b>Job Description</b></label>
-                    <textarea name="Job_Description" rows="7"></textarea>
+                    <label for="Job_Description"><b>Role Description</b></label>
+                    <textarea name="Role_Description" rows="7"></textarea>
+                </div>
+                <div class="col-lg-12 mb-3">
+                <label for="Job_Description"><b>Job Description</b></label>
+                    <textarea name="Job_Description" id="editor"></textarea>
+                    <script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
+                    <script type="text/javascript">
+                        CKEDITOR.replace('editor', {
+                            height: '350px',
+                            filebrowserUploadUrl: "Blog_Con_Upload.php",
+                            filebrowserUploadMethod: 'form'
+                        });
+                    </script>
+
                 </div>
                 <div class="col-lg-3 ">
                     <button name="submitCareer">submit</button>
