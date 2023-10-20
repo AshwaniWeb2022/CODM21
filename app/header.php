@@ -5,15 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodM Software</title>
+    <title>CODM SOFTWARE|Salesforce Consulting Partner </title>
     <META HTTP-EQUIV="Content-type" CONTENT="text/php; charset=UTF-8">
     <meta name="google-site-verification" content="pYoNVYcgXP6np5jtGBYQ0-4TJ-93U7N-02fTHm7dtec" />
 
     <!-- website description for google bot  -->
-    <meta name="description" content="CodM Software Pvt. Ltd. is a certified Salesforce partner specializing in digital
-    transformation, full-stack development and data migration services. With a skilled, certified team, they deliver
-    best-in-class CRM solutions and work with international clients, following best practices and motivating their
-    team for optimal performance.">
+    <meta name="description" content="CodM Software Pvt. Ltd. is a certified Salesforce Consulting Partner.">
     <!-- website description for google bot End  -->
     <!-- favicon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assect/upload/favicons/favicon-16x16.png">
@@ -119,9 +116,9 @@
                                         <li>
                                             <a href="../Career/" class="dropdown__link">Career</a>
                                         </li>
-                                        <!-- <li>
+                                     <!-- <li>
                                             <a href="../Blog/" class="dropdown__link">Blog</a>
-                                        </li>   -->
+                                        </li>    -->
                                     </ul>
                                 </div>
                             </div>
@@ -154,9 +151,9 @@
                                         <li>
                                             <a href="../Products/web-application.php" class="dropdown__link">Titan Web</a>
                                         </li>
-                                        <li>
-                                            <!-- <a href="../Products/flow-automation" class="dropdown__link">Titan Flow</a> -->
-                                        </li>
+                                      <!--  <li>
+                                             <a href="../Products/flow-automation" class="dropdown__link">Titan Flow</a>
+                                        </li>  -->
                                     </ul>
                                 </div>
                             </div>
