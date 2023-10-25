@@ -140,7 +140,7 @@
                 <div class="footerAddressHeading pb-2 padding_footer_map-left"><b>UK</b></div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/flag-uk.webp" alt="uk Flag">
-                    <div class="text-dark">Tech14 Networks Ltd. <br> Regus Edmund House 12-22, Newhall Street, Birmingham B3 3AS, UK</div>
+                    <div class="text-dark">CodM Software Ltd. <br> Regus Edmund House 12-22, Newhall Street, Birmingham B3 3AS, UK</div>
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-solid fa-phone text-info"></i>
@@ -148,7 +148,7 @@
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-sharp fa-solid fa-envelope text-info"></i>
-                    <a href="mailto:info@tech14networks.com" class="text-dark">info@tech14networks.com</a>
+                    <a href="mailto:info@tech14networks.com" class="text-dark">info@codmsoftware.com</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-12 mb-2">

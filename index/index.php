@@ -35,11 +35,7 @@ include "../admin/databash/dbConnect.php";
             <div class="col-lg-6 ps-sm-5 ">
                 <h5 class="mb-3" style="color:#00A1E0;">WELCOME TO CodM</h5>
                 <h2 class="about-titel_h2">Reliable Salesforce CRM partner since 2021</h2>
-                <div class=" pt-4" style="line-height: 30px;">Founded in 2021, CodM specializes in world-class
-                    Salesforce CRM implementation and consulting services. Our expert team of certified architects,
-                    consultants and developers has successfully delivered numerous Salesforce projects across various
-                    industries. With a focus on security reviews and best practices, we have earned the distinction of
-                    being an official Salesforce Consulting Partner since 2021.</div>
+                <div class=" pt-4" style="line-height: 30px;">Founded in 2021, CodM specializes in world-class Salesforce CRM implementation and consulting services, with a global presence in two key locations India and the UK. Our expert team of certified architects, consultants, and developers has successfully delivered numerous Salesforce projects across various industries in both regions. With a focus on security reviews and best practices, we have earned the distinction of being an official Salesforce Consulting Partner since 2021</div>
                 <div class="mt-5">
                     <a href="../About-Us/" class="hireButton"><i class="fa-solid fa-user"></i>&nbsp;Learn More</a>
                 </div>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CODM SOFTWARE|Salesforce Consulting Partner </title>
+    <title>CODM SOFTWARE | Salesforce Consulting Partner </title>
     <META HTTP-EQUIV="Content-type" CONTENT="text/php; charset=UTF-8">
     <meta name="google-site-verification" content="pYoNVYcgXP6np5jtGBYQ0-4TJ-93U7N-02fTHm7dtec" />
 
@@ -58,12 +58,20 @@
 <body>
     <!--=============== HEADER ===============-->
     <div class="topHeding">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6 right-border text-white">
+                <div class="col-lg-5 right-border text-white">
                     <!-- <marquee>Lorem ipsum dolor sit amet consectetur.</marquee> -->
                 </div>
-                <div class="col-lg-3 right-border text-white">
+                <div class="col-lg-2 right-border text-white pe-1">
+                    <span>
+                        <i class="fa-solid fa-phone"></i>
+                    </span>
+                    <span>
+                        <a href="tel:+447436934216">UK : +44 7436934216</a>
+                    </span>
+                </div>
+                <div class="col-lg-2 right-border text-white pe-1">
                     <span>
                         <i class="fa-solid fa-phone"></i>
                     </span>
