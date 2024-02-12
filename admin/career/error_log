@@ -1,0 +1,15 @@
+[18-Oct-2023 08:49:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't hesitate to apply today. We are waiting for you!')' at line 2 in /home/yfb4y9gg44hm/public_html/admin/career/career_sql_input.php:16
+Stack trace:
+#0 /home/yfb4y9gg44hm/public_html/admin/career/career_sql_input.php(16): mysqli->query()
+#1 {main}
+  thrown in /home/yfb4y9gg44hm/public_html/admin/career/career_sql_input.php on line 16
+[19-Oct-2023 06:16:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Content here, content here', making it look like readable English. Many desktop ' at line 2 in /home/yfb4y9gg44hm/public_html/admin/career/career_sql_input.php:16
+Stack trace:
+#0 /home/yfb4y9gg44hm/public_html/admin/career/career_sql_input.php(16): mysqli->query()
+#1 {main}
+  thrown in /home/yfb4y9gg44hm/public_html/admin/career/career_sql_input.php on line 16
+[19-Oct-2023 07:02:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'Career_Work_Level' in 'field list' in /home/yfb4y9gg44hm/public_html/admin/career/career_sql_input.php:16
+Stack trace:
+#0 /home/yfb4y9gg44hm/public_html/admin/career/career_sql_input.php(16): mysqli->query()
+#1 {main}
+  thrown in /home/yfb4y9gg44hm/public_html/admin/career/career_sql_input.php on line 16

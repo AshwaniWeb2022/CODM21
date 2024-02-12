@@ -1,0 +1,73 @@
+[21-Sep-2023 10:28:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php:8
+Stack trace:
+#0 /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php(8): mysqli->__construct()
+#1 /home/yfb4y9gg44hm/public_html/app/header.php(2): include('/home/yfb4y9gg4...')
+#2 /home/yfb4y9gg44hm/public_html/home/index.php(2): include('/home/yfb4y9gg4...')
+#3 {main}
+  thrown in /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php on line 8
+[21-Sep-2023 10:28:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php:8
+Stack trace:
+#0 /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php(8): mysqli->__construct()
+#1 /home/yfb4y9gg44hm/public_html/app/header.php(2): include('/home/yfb4y9gg4...')
+#2 /home/yfb4y9gg44hm/public_html/home/index.php(2): include('/home/yfb4y9gg4...')
+#3 {main}
+  thrown in /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php on line 8
+[21-Sep-2023 10:30:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php:8
+Stack trace:
+#0 /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php(8): mysqli->__construct()
+#1 /home/yfb4y9gg44hm/public_html/app/header.php(2): include('/home/yfb4y9gg4...')
+#2 /home/yfb4y9gg44hm/public_html/home/index.php(2): include('/home/yfb4y9gg4...')
+#3 {main}
+  thrown in /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php on line 8
+[21-Sep-2023 10:32:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php:8
+Stack trace:
+#0 /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php(8): mysqli->__construct()
+#1 /home/yfb4y9gg44hm/public_html/app/header.php(2): include('/home/yfb4y9gg4...')
+#2 /home/yfb4y9gg44hm/public_html/home/index.php(2): include('/home/yfb4y9gg4...')
+#3 {main}
+  thrown in /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php on line 8
+[21-Sep-2023 10:32:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php:8
+Stack trace:
+#0 /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php(8): mysqli->__construct()
+#1 /home/yfb4y9gg44hm/public_html/app/header.php(2): include('/home/yfb4y9gg4...')
+#2 /home/yfb4y9gg44hm/public_html/home/index.php(2): include('/home/yfb4y9gg4...')
+#3 {main}
+  thrown in /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php on line 8
+[21-Sep-2023 10:32:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php:8
+Stack trace:
+#0 /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php(8): mysqli->__construct()
+#1 /home/yfb4y9gg44hm/public_html/app/header.php(2): include('/home/yfb4y9gg4...')
+#2 /home/yfb4y9gg44hm/public_html/home/index.php(2): include('/home/yfb4y9gg4...')
+#3 {main}
+  thrown in /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php on line 8
+[21-Sep-2023 10:34:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php:8
+Stack trace:
+#0 /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php(8): mysqli->__construct()
+#1 /home/yfb4y9gg44hm/public_html/app/header.php(2): include('/home/yfb4y9gg4...')
+#2 /home/yfb4y9gg44hm/public_html/home/index.php(2): include('/home/yfb4y9gg4...')
+#3 {main}
+  thrown in /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php on line 8
+[21-Sep-2023 10:49:35 UTC] PHP Warning:  Undefined variable $conn in /home/yfb4y9gg44hm/public_html/home/index.php on line 223
+[21-Sep-2023 10:49:35 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/yfb4y9gg44hm/public_html/home/index.php:223
+Stack trace:
+#0 /home/yfb4y9gg44hm/public_html/home/index.php(223): mysqli_query()
+#1 {main}
+  thrown in /home/yfb4y9gg44hm/public_html/home/index.php on line 223
+[21-Sep-2023 10:49:48 UTC] PHP Warning:  Undefined variable $conn in /home/yfb4y9gg44hm/public_html/home/index.php on line 223
+[21-Sep-2023 10:49:48 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/yfb4y9gg44hm/public_html/home/index.php:223
+Stack trace:
+#0 /home/yfb4y9gg44hm/public_html/home/index.php(223): mysqli_query()
+#1 {main}
+  thrown in /home/yfb4y9gg44hm/public_html/home/index.php on line 223
+[21-Sep-2023 10:53:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php:8
+Stack trace:
+#0 /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php(8): mysqli->__construct()
+#1 /home/yfb4y9gg44hm/public_html/home/index.php(3): include('/home/yfb4y9gg4...')
+#2 {main}
+  thrown in /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php on line 8
+[21-Sep-2023 10:55:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php:8
+Stack trace:
+#0 /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php(8): mysqli->__construct()
+#1 /home/yfb4y9gg44hm/public_html/home/index.php(3): include('/home/yfb4y9gg4...')
+#2 {main}
+  thrown in /home/yfb4y9gg44hm/public_html/admin/databash/dbConnect.php on line 8

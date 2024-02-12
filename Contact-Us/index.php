@@ -140,11 +140,11 @@
                 <div class="footerAddressHeading pb-2 padding_footer_map-left"><b>UK</b></div>
                 <div class="footerAddress mb-2">
                     <img src="../assect/upload/contact/flag-uk.webp" alt="uk Flag">
-                    <div class="text-dark">CodM Software Ltd. <br> Regus Edmund House 12-22, Newhall Street, Birmingham B3 3AS, UK</div>
+                    <div class="text-dark">CodM Software Ltd. <br> 71-75, Shelton Street, Covent Garden, London, WC2H 9JQ, UNITED KINGDOM</div>
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-solid fa-phone text-info"></i>
-                    <a href="tel:+44 7436934216" class="text-dark">+44 7436934216</a>
+                    <a href="tel:+44 7436934216" class="text-dark">+44 01218186924</a>
                 </div>
                 <div class="footerMailPhoneIcon mb-2">
                     <i class="fa-sharp fa-solid fa-envelope text-info"></i>

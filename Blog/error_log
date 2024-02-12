@@ -1,0 +1,4 @@
+[21-Sep-2023 12:23:21 UTC] PHP Warning:  include(../client/app/header.php): Failed to open stream: No such file or directory in /home/yfb4y9gg44hm/public_html/Blog/Full_Blog_Prevriew.php on line 2
+[21-Sep-2023 12:23:21 UTC] PHP Warning:  include(): Failed opening '../client/app/header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yfb4y9gg44hm/public_html/Blog/Full_Blog_Prevriew.php on line 2
+[21-Sep-2023 12:23:21 UTC] PHP Warning:  include(../client/app/footer.php): Failed to open stream: No such file or directory in /home/yfb4y9gg44hm/public_html/Blog/Full_Blog_Prevriew.php on line 27
+[21-Sep-2023 12:23:21 UTC] PHP Warning:  include(): Failed opening '../client/app/footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yfb4y9gg44hm/public_html/Blog/Full_Blog_Prevriew.php on line 27

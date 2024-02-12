@@ -1,0 +1,52 @@
+[11-Oct-2023 08:37:21 UTC] PHP Warning:  include(../client/app/header.php): Failed to open stream: No such file or directory in /home/yfb4y9gg44hm/public_html/Career/Job_Seeker_Form.php on line 2
+[11-Oct-2023 08:37:21 UTC] PHP Warning:  include(): Failed opening '../client/app/header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yfb4y9gg44hm/public_html/Career/Job_Seeker_Form.php on line 2
+[11-Oct-2023 08:37:21 UTC] PHP Warning:  include(../client/app/footer.php): Failed to open stream: No such file or directory in /home/yfb4y9gg44hm/public_html/Career/Job_Seeker_Form.php on line 236
+[11-Oct-2023 08:37:21 UTC] PHP Warning:  include(): Failed opening '../client/app/footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yfb4y9gg44hm/public_html/Career/Job_Seeker_Form.php on line 236
+[03-Nov-2023 22:01:06 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 156
+[03-Nov-2023 22:01:06 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 160
+[03-Nov-2023 22:01:06 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 166
+[03-Nov-2023 22:03:46 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 154
+[03-Nov-2023 22:03:46 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 158
+[03-Nov-2023 22:03:46 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 164
+[03-Nov-2023 22:07:11 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 154
+[03-Nov-2023 22:07:11 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 158
+[03-Nov-2023 22:07:11 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 164
+[03-Nov-2023 22:07:25 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 154
+[03-Nov-2023 22:07:25 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 158
+[03-Nov-2023 22:07:25 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 164
+[03-Nov-2023 22:26:20 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 154
+[03-Nov-2023 22:26:20 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 158
+[03-Nov-2023 22:26:20 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 164
+[03-Nov-2023 22:26:29 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 154
+[03-Nov-2023 22:26:29 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 158
+[03-Nov-2023 22:26:29 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 164
+[03-Nov-2023 22:28:55 UTC] PHP Warning:  Undefined variable $Ah in /home/yfb4y9gg44hm/public_html/Career/adminer.php on line 1787
+[03-Nov-2023 22:28:55 UTC] PHP Warning:  Undefined variable $Ah in /home/yfb4y9gg44hm/public_html/Career/adminer.php on line 1787
+[03-Nov-2023 22:28:55 UTC] PHP Warning:  Undefined variable $Ah in /home/yfb4y9gg44hm/public_html/Career/adminer.php on line 1787
+[03-Nov-2023 22:28:55 UTC] PHP Warning:  Undefined variable $Ah in /home/yfb4y9gg44hm/public_html/Career/adminer.php on line 1787
+[03-Nov-2023 22:29:06 UTC] PHP Warning:  Undefined variable $Ah in /home/yfb4y9gg44hm/public_html/Career/adminer.php on line 1787
+[03-Nov-2023 22:29:06 UTC] PHP Warning:  Undefined variable $Ah in /home/yfb4y9gg44hm/public_html/Career/adminer.php on line 1787
+[03-Nov-2023 22:29:06 UTC] PHP Warning:  Undefined variable $Ah in /home/yfb4y9gg44hm/public_html/Career/adminer.php on line 1787
+[03-Nov-2023 22:29:06 UTC] PHP Warning:  Undefined variable $Ah in /home/yfb4y9gg44hm/public_html/Career/adminer.php on line 1787
+[03-Nov-2023 22:30:15 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 154
+[03-Nov-2023 22:30:15 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 158
+[03-Nov-2023 22:30:15 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 164
+[03-Nov-2023 22:38:15 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home/yfb4y9gg44hm/public_html/Career/fw.php on line 1
+[03-Nov-2023 23:13:17 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 154
+[03-Nov-2023 23:13:17 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 158
+[03-Nov-2023 23:13:17 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 164
+[03-Nov-2023 23:22:00 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 154
+[03-Nov-2023 23:22:00 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 158
+[03-Nov-2023 23:22:00 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 164
+[04-Nov-2023 04:31:47 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 154
+[04-Nov-2023 04:31:47 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 158
+[04-Nov-2023 04:31:47 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 164
+[04-Nov-2023 04:33:10 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 154
+[04-Nov-2023 04:33:10 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 158
+[04-Nov-2023 04:33:10 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 164
+[04-Nov-2023 04:34:43 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 154
+[04-Nov-2023 04:34:43 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 158
+[04-Nov-2023 04:34:43 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 164
+[04-Nov-2023 04:34:53 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 154
+[04-Nov-2023 04:34:53 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 158
+[04-Nov-2023 04:34:53 UTC] PHP Warning:  Undefined variable $method in /home/yfb4y9gg44hm/public_html/Career/pop.php on line 164

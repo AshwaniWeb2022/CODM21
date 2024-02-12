@@ -68,7 +68,7 @@
                         <i class="fa-solid fa-phone"></i>
                     </span>
                     <span>
-                        <a href="tel:+447436934216">UK : +44 7436934216</a>
+                        <a href="tel:+447436934216">UK : +44 01218186924</a>
                     </span>
                 </div>
                 <div class="col-lg-2 right-border text-white pe-1">
